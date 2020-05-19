@@ -1,0 +1,299 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">SHOP</string>
+
+
+       <!-- <string name="link" translatable="false">https://freaktemplate.com/shop_admin/api/</string>
+        <string name="imagelink" translatable="false">https://freaktemplate.com/shop_admin/</string>-->
+<!--            <string name="link" translatable="false">https://freaktemplate.com/ecommerce_demo/api/</string>-->
+<!--            <string name="imagelink" translatable="false">https://freaktemplate.com/ecommerce_demo/</string>-->
+<!--    <string name="link" translatable="false">https://freaktemplate.com/ecommerce/api/</string>-->
+<!--            <string name="imagelink" translatable="false">https://freaktemplate.com/ecommerce/</string>-->
+    <string name="link" translatable="false">https://aqurvent.eymcloud.com/api/</string>
+    <string name="imagelink" translatable="false">https://aqurvent.eymcloud.com/</string>
+
+
+    <string name="termsand" translatable="false"><![CDATA[<font color=\'#0000F7\'>terms And conditions</font>]]></string>
+    <string name="txt_regdesc" translatable="false">Lorem ipsum is simply dummy text of the printing and typesetting industry.</string>
+    <string name="terms_condition_filename" translatable="false">tnc.html</string>
+    <string name="about_us" translatable="false">aboutus.html</string>
+    <string name="help_center1" translatable="false">helpcenter.html</string>
+    <string name="orderstats" translatable="false">Order Status</string>
+    <string name="orderdetail" translatable="false">Order Details</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="item"  translatable="false">ITEM</string>
+    <string name="shipping_address" translatable="false">Shipping Address</string>
+    <string name="billing_address" translatable="false">Billing Address</string>
+    <string name="description" translatable="false">Description</string>
+    <string name="additional_information" translatable="false">Additional Information</string>
+    <string name="review" translatable="false">Reviews</string>
+    <string name="text" translatable="false">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+    <string name="locationfirst" translatable="false">Select location First</string>
+    <string name="set_your_location_to_start_exploring_restaurants_around_you" translatable="false">Set your location to start exploring \n restaurants around you</string>
+    <string name="hi_nice_to_meet_you" translatable="false">Hi, nice to meet you!</string>
+    <string name="loading" tools:ignore="MissingTranslation">loading..</string>
+    <string name="need_login_for_wish" translatable="false">you need to login first. Would you like to login now ?</string>
+
+    <!--user-->
+    <string name="sign_in" translatable="false">Sign In</string>
+    <string name="no_data" translatable="false">No Products Found</string>
+    <string name="set_yor_profile" translatable="false">Set your profile</string>
+    <string name="logout" translatable="false">Logout</string>
+    <string name="report_issue" translatable="false">Report Issue</string>
+    <string name="help_center" translatable="false">Help Center</string>
+    <string name="terms_amp_condition" translatable="false"><![CDATA[Terms & Condition]]></string>
+    <string name="about_shop" translatable="false">About Shop</string>
+    <string name="shoping_categories" translatable="false">Shoping Categories</string>
+    <string name="update_success" translatable="false">Update Success</string>
+
+    <!--facebook-->
+    <string name="facebook_app_id" translatable="false">1343802689133822</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb1343802689133822</string>
+    <string name="email_error" translatable="false">Enter Valid Email</string>
+    <string name="default_notification_channel_id" translatable="false">123</string>
+    <string name="login_warning" translatable="false">U need To Login FIrst</string>
+    <string name="something_wrong" translatable="false">Something Wrong</string>
+    <string name="sort_by" translatable="false">Sort By</string>
+
+
+    <!--reportspam-->
+    <string name="select_optionfirst" translatable="false">Select Options First</string>
+    <string name="moreinfo" translatable="false">Enter MoreInfo</string>
+    <string name="report_an_error" translatable="false">Report An Error</string>
+    <string name="address" translatable="false">Address</string>
+    <string name="mrp_price" translatable="false">Author selling product more then MRP price</string>
+    <string name="product_duplicate" translatable="false">Product is Duplicate</string>
+    <string name="product_weong" translatable="false">Author showing wrong information of product </string>
+    <string name="this_place_has_closed_down" translatable="false">This Place has Closed down</string>
+    <string name="menu_is_incorrect_out_of_order" translatable="false">Menu is Incorrect/out of order</string>
+    <string name="more_info" translatable="false">More Info</string>
+    <string name="search" translatable="false">Search</string>
+
+
+    <!--payment-->
+    <string name="pay_failure" translatable="false">an extremely unlikely failure occurred:</string>
+    <string name="shop_payment" translatable="false">Shop Peyment</string>
+    <string name="stripe_key" translatable="false">pk_test_yFUNiYsEESF7QBY0jcZoYK9j00yHumvXho</string>
+    <string name="paypalclient_id" translatable="false">AaT793pjARjOWkXpWaOd45lGARUMRN9pr8seE5c-AJpQBSJS1H6Z44rUPSEWYPpO7J7iF1Hu0N-MqnPx</string>
+
+    <!--AdMob Integration-->
+    <string name="show_admmob_ads" translatable="false">no</string>
+    <string name="banner_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="interstial_ad_unit_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+
+    <!--facbook Integration-->
+    <string name="show_facebook_ads" translatable="false">no</string>
+    <string name="facebook_interstial" translatable="false">240708983477305_245272039687666</string>
+    <string name="facebook_native_id" translatable="false">240708983477305_245209643027239</string>
+    <string name="notification_channel_id" translatable="false">123</string>
+
+
+    <!--wishlist-->
+    <string name="no_wishlist" translatable="false">No wishList Found</string>
+    <string name="save_upto" translatable="false">Save up to</string>
+    <string name="category" translatable="false">Category</string>
+
+
+    <!--cart-->
+    <string name="dolar" translatable="false">$</string>
+    <string name="my_account" translatable="false">Profile</string>
+    <string name="back" translatable="false">Back</string>
+    <string name="edit" translatable="false">Edit</string>
+    <string name="save" translatable="false">Save</string>
+    <string name="first_name" translatable="false">First Name</string>
+    <string name="email" translatable="false">Email</string>
+    <string name="adress" translatable="false">Address</string>
+    <string name="phone" translatable="false">Phone No</string>
+    <string name="select_phone" translatable="false">Enter phone no</string>
+    <string name="select_address" translatable="false">Enter Address</string>
+    <string name="enterfname" translatable="false">Enter First Name</string>
+    <string name="reviews" translatable="false">Reviews</string>
+    <string name="cart_empty" translatable="false">Cart is Empty</string>
+    <string name="valid_coupan" translatable="false">Please Enter Valid Coupan</string>
+    <string name="are_sure_remove" translatable="false">Are sure You want to remove item</string>
+    <string name="cart" translatable="false">Cart</string>
+    <string name="proceed_to_checkout" translatable="false">proceed To Checkout</string>
+    <string name="_0_0" translatable="false">$0.0</string>
+    <string name="total" translatable="false">Total</string>
+    <string name="discount" translatable="false">Discount</string>
+    <string name="delievery_charge" translatable="false">Delievery Charge</string>
+    <string name="subtotal" translatable="false">Subtotal</string>
+    <string name="apply" translatable="false">Apply</string>
+    <string name="coupan_code" translatable="false">Coupan Code</string>
+    <string name="no_offers" translatable="false">No Offers</string>
+
+    <!--Detail-->
+    <string name="warning" translatable="false">Warning</string>
+    <string name="add_wishlist"  translatable="false" >add to wishlist successfully</string>
+    <string name="remove_wishlist"  translatable="false">remove from wishlist successfully</string>
+    <string name="try_again"  translatable="false">Sorry Try Again</string>
+    <string name="add_to_cart"  translatable="false">Add to cart</string>
+    <string name="shop_now"  translatable="false">shop now</string>
+
+    <!--filter-->
+    <string name="popular_item"  translatable="false">Popular Item</string>
+    <string name="low_to_high"  translatable="false">price low to high</string>
+    <string name="high_to_low" translatable="false">price high to low</string>
+    <string name="latest"  translatable="false">latest</string>
+    <string name="refine"  translatable="false">Refine</string>
+    <string name="clear_all"  translatable="false">Clear All</string>
+    <string name="brand"  translatable="false">Brand</string>
+    <string name="colors_sort_by"  translatable="false">Colors Sort By</string>
+    <string name="size_sort_by"  translatable="false">Size Sort By</string>
+    <string name="price_sort_by"  translatable="false">Price Sort By</string>
+    <string name="review_sort_by"  translatable="false">Review Sort By</string>
+    <string name="show_result"  translatable="false">Show result</string>
+
+
+    <!--location-->
+    <string name="location"  translatable="false">Location</string>
+
+    <!--login-->
+    <string name="enter_password"  translatable="false">Enter Password</string>
+    <string name="enter_email"  translatable="false">Enter Email</string>
+    <string name="invalid_email"  translatable="false">Invalid Email</string>
+    <string name="name"  translatable="false">Name</string>
+    <string name="password"  translatable="false">Password</string>
+    <string name="forgot_password"  translatable="false">Forgot Password ?</string>
+    <string name="login"  translatable="false">Login</string>
+    <string name="dont_have_account"  translatable="false">Dont Have Account ?</string>
+    <string name="register"  translatable="false">Register</string>
+
+    <!--orderlist-->
+    <string name="order_no"  translatable="false">Order No :</string>
+    <string name="items"  translatable="false">Items</string>
+    <string name="bill"  translatable="false">Bill :</string>
+    <string name="eta"  translatable="false">ETA</string>
+    <string name="my_orders"  translatable="false">My Orders</string>
+    <string name="order_date"  translatable="false">Order Date</string>
+    <string name="order_id"  translatable="false">Order ID</string>
+
+    <!--offer-->
+    <string name="offf"  translatable="false">Off</string>
+    <string name="new_price"  translatable="false">New Price</string>
+    <string name="offer"   translatable="false">Offer</string>
+    <string name="offers"  translatable="false">Offers</string>
+    <string name="best_selling_products" translatable="false" >Best selling products</string>
+    <string name="see_all" translatable="false">See all</string>
+
+    <!--register-->
+    <string name="accept_terms" translatable="false">Accept Terms and Conditions</string>
+    <string name="password_error" translatable="false">Password is mismatch</string>
+    <string name="enter_mobile" translatable="false">Enter Phone Number</string>
+    <string name="enter_name" translatable="false">Enter Name</string>
+    <string name="register_success" translatable="false">Register Success</string>
+    <string name="current_password" translatable="false">Current Password</string>
+    <string name="remove" translatable="false">Remove</string>
+    <string name="sponsored" translatable="false">Sponsored</string>
+    <string name="are_you_sure_you_want_to_exit" translatable="false">Are you sure you want to exit?</string>
+
+    <!--Address and payment-->
+    <string name="enter_billing_address" translatable="false">Enter Billing Pincode</string>
+    <string name="enter_billing_town" translatable="false">Enter Billing Town</string>
+    <string name="enter_notes" translatable="false">Enter Notes</string>
+    <string name="enter_pincode" translatable="false">Enter Pincode</string>
+    <string name="enter_town" translatable="false">Enter Town</string>
+    <string name="enter_address" translatable="false">Enter Address</string>
+    <string name="enter_firstname" translatable="false">Enter First Name</string>
+    <string name="select_location" translatable="false">please Select Location</string>
+    <string name="next_step" translatable="false" >Next Step</string>
+    <string name="delivery" translatable="false">Delivery</string>
+    <string name="select_delivery_location" translatable="false">Select Delivery Location</string>
+    <string name="town_city" translatable="false">Town / City</string>
+    <string name="postcode" translatable="false">Postcode</string>
+    <string name="mobile_number" translatable="false">Mobile Number</string>
+    <string name="note" translatable="false">Note</string>
+    <string name="use_as_billing_address" translatable="false">Use as Billing address</string>
+    <string name="select_billing_location" translatable="false">Select Billing Location</string>
+    <string name="size" translatable="false">size</string>
+    <string name="sku" translatable="false">SKU :</string>
+    <string name="n_a" translatable="false">N/A</string>
+    <string name="category_" translatable="false">Category :</string>
+    <string name="tags" translatable="false">Tags :</string>
+
+    <!--review-->
+    <string name="add_review" translatable="false">Add Review</string>
+    <string name="hint" translatable="false">Comment</string>
+    <string name="submit" translatable="false">Submit</string>
+    <string name="cancle" translatable="false">Cancel</string>
+    <string name="error_review" translatable="false">Review Please</string>
+    <string name="yes" translatable="false">Yes</string>
+    <string name="no" translatable="false">No</string>
+    <string name="coupan_error" translatable="false">Enter Valid Coupan</string>
+    <string name="percentage" translatable="false">%</string>
+    <string name="_5" translatable="false">5</string>
+    <string name="_4" translatable="false">4</string>
+    <string name="_3" translatable="false">3</string>
+    <string name="_2" translatable="false">2</string>
+    <string name="_1" translatable="false">1</string>
+
+    <!--home-->
+    <string name="items_found" translatable="false">Items Found</string>
+    <string name="home" translatable="false">Home</string>
+    <string name="wishlist" translatable="false" >Wishlist</string>
+    <string name="user" translatable="false">User</string>
+    <string name="shop" translatable="false">Shop</string>
+
+    <!--payment_method-->
+    <string name="paypal_transfer" translatable="false">Paypal Transfer</string>
+    <string name="pay_onpaypal" translatable="false">pay on paypal</string>
+    <string name="visa_card" translatable="false">Visa card Transfer</string>
+    <string name="payvisa" translatable="false">pay on visa card</string>
+    <string name="master_card" translatable="false">Master card Transfer</string>
+    <string name="paymaster" translatable="false">pay on master card</string>
+    <string name="cashon" translatable="false">Cash On Delivery</string>
+    <string name="pay_cash" translatable="false">pay on delivery</string>
+    <string name="valid_cvv" translatable="false">Enter Valid cvv</string>
+    <string name="valid_year" translatable="false">Enter valid Year</string>
+    <string name="valid_month" translatable="false">Enter valid Month</string>
+    <string name="valid_card" translatable="false">Enter Valid Card Number</string>
+    <string name="expirydate" translatable="false">The expiration date that you entered is invalid</string>
+    <string name="cvc_error" translatable="false">The CVC code that you entered is invalid</string>
+    <string name="invalidcard" translatable="false">The card details that you entered are invalid</string>
+    <string name="payment_method" translatable="false">Payment Method</string>
+    <string name="move_pin_to_adjust" translatable="false">Move Pin To Adjust</string>
+
+    <!--Stripe-->
+    <string name="card_number" translatable="false">Card Number</string>
+    <string name="month" translatable="false">Month</string>
+    <string name="year" translatable="false">Year</string>
+    <string name="cvv" translatable="false">Cvv</string>
+    <string name="payment" translatable="false">Payment</string>
+
+    <!--Forgot Password-->
+    <string name="forgot_passwords" translatable="false">Forgot Password</string>
+    <string name="retrieve_your_password" translatable="false">Retrieve Your Password</string>
+    <string name="forgot_password_" translatable="false">Forgot Password</string>
+    <string name="submit_txt" tools:ignore="MissingTranslation">Submit</string>
+
+
+    <!--maps key-->
+    <string name="mapskey" translatable="false">AIzaSyDn-8FSBwLuRe8McwYjdWGC5AcXzfDJrgA</string>
+    <string name="country" translatable="false">Country</string>
+    <string name="are_sure_logout" translatable="false">Are you sure want to logout ?</string>
+    <string name="select" translatable="false">Select </string>
+
+    <!--order_status-->
+    <string name="order_placed" translatable="false">Order Placed</string>
+    <string name="we_have_received_your_order" translatable="false">We have received your order.</string>
+    <string name="payment_confirmed" translatable="false">Payment Confirmed</string>
+    <string name="awaiting_confirmation" translatable="false">Awaiting confirmation.....</string>
+    <string name="order_proceed" translatable="false">Order Proceed</string>
+    <string name="we_are_preparing_your_order" translatable="false">We are preparing your order.</string>
+    <string name="ready_to_pickup" translatable="false">Ready to Pickup</string>
+    <string name="order_12374_from_tasty_food" translatable="false">Order #12374 from Tasty Food</string>
+    <string name="order_cancelled" translatable="false">Orders Cancel</string>
+    <string name="orders_pending" translatable="false">Orders Pending</string>
+    <string name="orders_processing" translatable="false">Orders Processing</string>
+    <string name="orders_on_hold" translatable="false">Orders On Hold</string>
+    <string name="orders_delivered" translatable="false">Orders Delivered</string>
+    <string name="ordercan" translatable="false">Your order cancelled</string>
+    <string name="cate" translatable="false">Category :</string>
+    <string name="specifications" translatable="false">Specifications</string>
+    <string name="features" translatable="false">Features</string>
+    <string name="no_seasonal_offers" translatable="false">No Seasonal offers</string>
+    <string name="somethingwroing" translatable="false">Something Wrong</string>
+    <string name="sorry_try" translatable="false">Sorry Try Again</string>
+    <!--    <string name="brand">Brand</string>-->
+
+</resources>

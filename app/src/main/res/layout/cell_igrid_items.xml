@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="260dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/product_background"
+    android:orientation="horizontal"
+    tools:ignore="RtlCompat">
+
+    <RelativeLayout
+        android:id="@+id/rel_main"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/ic_dummy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#2CD2D2D5"
+            android:visibility="visible" />
+
+        <RelativeLayout
+            android:id="@+id/rel_image"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_marginTop="10dp">
+
+            <!--
+                        <com.santalu.aspectratioimageview.AspectRatioImageView
+                            android:id="@+id/ic_image"
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_centerInParent="true"
+                            android:scaleType="centerCrop"
+                            app:ari_ratio="1" />
+            -->
+
+            <ImageView
+                android:id="@+id/ic_image"
+                android:layout_width="150dp"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                 />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_header"
+            android:layout_width="match_parent"
+            android:layout_height="38dp">
+
+            <ImageView
+                android:id="@+id/ic_like"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/unlike" />
+
+            <ImageView
+                android:id="@+id/ic_unlike"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:clickable="true"
+                android:focusable="true"
+                android:src="@drawable/fill_heart"
+                android:visibility="gone"
+                tools:ignore="RtlCompat" />
+
+            <TextView
+                android:id="@+id/txt_discount"
+                android:layout_width="35dp"
+                android:layout_height="16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/discount_background"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textSize="10sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ic_line"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/rel_image"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="12dp"
+            android:background="@color/textgrey" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ic_line"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="15dp">
+
+            <TextView
+                android:id="@+id/txt_itemname"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:fontFamily="@font/opensans_semibold"
+                android:maxLines="2"
+                android:textColor="@color/black"
+                android:textSize="11sp" />
+
+            <com.willy.ratingbar.ScaleRatingBar
+                android:id="@+id/rate_detail"
+                style="@style/rat"
+                android:layout_width="wrap_content"
+                android:layout_height="13dp"
+                android:layout_below="@+id/txt_itemname"
+                android:layout_marginTop="5dp"
+                android:focusableInTouchMode="false"
+                app:srb_clearRatingEnabled="true"
+                app:srb_clickable="false"
+                app:srb_drawableEmpty="@drawable/unfill_star"
+                app:srb_drawableFilled="@drawable/fill_star"
+                app:srb_numStars="5"
+                app:srb_scrollable="false"
+                app:srb_starHeight="10dp"
+                app:srb_starPadding="1dp"
+                app:srb_starWidth="10dp" />
+
+            <TextView
+                android:id="@+id/txt_totalreview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txt_itemname"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@+id/rate_detail"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/textgrey"
+                android:textSize="8sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txt_totalreview"
+                android:layout_marginTop="-5dp"
+                android:layout_marginBottom="5dp">
+
+                <RelativeLayout
+                    android:id="@+id/rel_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginEnd="2dp"
+                    android:layout_toStartOf="@+id/txt_buynow">
+
+                    <TextView
+                        android:id="@+id/txt_price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_above="@+id/txt_original"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:includeFontPadding="false"
+                        android:textColor="@color/black"
+                        android:textSize="11sp" />
+
+                    <TextView
+                        android:id="@+id/txt_original"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginStart="2dp"
+                        android:fontFamily="@font/opensans_regular"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:textColor="@color/textgrey"
+                        android:textSize="8sp" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_buynow"
+                    android:layout_width="60dp"
+                    android:layout_height="19dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/rounded_rectangle_2"
+                    android:gravity="center"
+                    android:includeFontPadding="false"
+                    android:text="@string/shop_now"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="7sp" />
+
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

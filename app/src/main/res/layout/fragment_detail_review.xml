@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context="freaktemplate.shopping.fragment.DetailReview">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/rel_avg"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/review_background">
+
+            <TextView
+                android:id="@+id/avg_star"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="35dp"
+                android:layout_marginTop="25dp"
+                android:fontFamily="@font/opensans_bold"
+                android:textColor="@color/black"
+                android:textSize="17dp" />
+
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="30dp"
+                android:layout_toEndOf="@+id/avg_star"
+                android:src="@drawable/fill_star" />
+
+            <TextView
+                android:id="@+id/total_reviews"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/avg_star"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/opensans_semibold"
+                android:textColor="@color/textgrey"
+                android:textSize="13dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_review"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@id/rel_avg">
+
+            <LinearLayout
+                android:id="@+id/lin_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/_5"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/fill_star" />
+
+                <me.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
+                    android:id="@+id/progressbar5"
+                    android:layout_width="145dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    app:zpb_bg_color="@color/text_color"
+                    app:zpb_border_width="0dp"
+                    app:zpb_pb_color="@color/green"
+                    app:zpb_show_mode="round_rect" />
+
+                <TextView
+                    android:id="@+id/txt_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/textgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin_5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/_4"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/fill_star" />
+
+                <me.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
+                    android:id="@+id/progressbar4"
+                    android:layout_width="145dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    app:zpb_bg_color="@color/text_color"
+                    app:zpb_border_width="0dp"
+                    app:zpb_pb_color="@color/green"
+                    app:zpb_show_mode="round_rect" />
+
+                <TextView
+                    android:id="@+id/txt_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/textgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin_4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/_3"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/fill_star" />
+
+                <me.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
+                    android:id="@+id/progressbar3"
+                    android:layout_width="145dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    app:zpb_bg_color="@color/text_color"
+                    app:zpb_border_width="0dp"
+                    app:zpb_pb_color="@color/yellow"
+                    app:zpb_show_mode="round_rect" />
+
+                <TextView
+                    android:id="@+id/txt_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/textgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/lin_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin_3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/_2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/fill_star" />
+
+                <me.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
+                    android:id="@+id/progressbar2"
+                    android:layout_width="145dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    app:zpb_bg_color="@color/text_color"
+                    app:zpb_border_width="0dp"
+                    app:zpb_pb_color="@color/yellow"
+                    app:zpb_show_mode="round_rect" />
+
+                <TextView
+                    android:id="@+id/txt_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/textgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/lin_2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="2dp"
+                    android:text="@string/_1"
+                    android:textColor="@color/black"
+                    android:textSize="18dp" />
+
+                <ImageView
+                    android:layout_width="15dp"
+                    android:layout_height="15dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="4dp"
+                    android:src="@drawable/fill_star" />
+
+                <me.zhouzhuo.zzhorizontalprogressbar.ZzHorizontalProgressBar
+                    android:id="@+id/progressbar1"
+                    android:layout_width="145dp"
+                    android:layout_height="8dp"
+                    android:layout_marginStart="5dp"
+                    android:layout_marginTop="8dp"
+                    app:zpb_bg_color="@color/text_color"
+                    app:zpb_border_width="0dp"
+                    app:zpb_pb_color="@color/light_red"
+                    app:zpb_show_mode="round_rect" />
+
+                <TextView
+                    android:id="@+id/txt_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:textColor="@color/textgrey"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@id/rel_review"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:background="@color/light_greay" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="5dp">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycle_review"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/btn_add"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_below="@id/recycle_review"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_rect_border_orange"
+                android:fontFamily="@font/opensans_semibold"
+                android:gravity="center"
+                android:text="@string/add_review"
+                android:textColor="@color/orange"
+                android:textSize="15sp" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

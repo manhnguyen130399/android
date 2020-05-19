@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="35dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:text="@string/hi_nice_to_meet_you"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_descrioptiom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_header"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:text="@string/set_your_location_to_start_exploring_restaurants_around_you"
+            android:textColor="#989898"
+            android:textSize="13sp" />
+
+        <fragment
+            android:id="@+id/mapFragment"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/input_location"
+            android:layout_below="@+id/txt_descrioptiom"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="45dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/input_location"
+            style="@style/NewTheme"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_above="@+id/btn_confirm"
+            android:layout_marginStart="3dp"
+            android:focusable="false"
+            android:fontFamily="@font/opensans_semibold"
+            android:hint="@string/location"
+            android:paddingStart="10dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="10dp"
+            android:textColorHint="@color/light_greay"
+            tools:ignore="RtlCompat,SpUsage,UnknownId">
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/ed_location"
+                android:layout_width="fill_parent"
+                android:layout_height="45dp"
+                android:fontFamily="@font/opensans_semibold"
+                android:inputType="textEmailAddress"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textAllCaps="true"
+                android:textColor="@color/black"
+                android:textSize="15dp"
+                tools:ignore="SpUsage" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/round_rect_orange"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="@string/submit"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="16sp"
+            tools:ignore="SpUsage" />
+    </RelativeLayout>
+</RelativeLayout>

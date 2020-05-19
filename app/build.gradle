@@ -1,0 +1,117 @@
+buildscript {
+    repositories {
+        maven { url 'https://maven.fabric.io/public' }
+    }
+
+    dependencies {
+        classpath 'io.fabric.tools:gradle:1.+'
+    }
+}
+apply plugin: 'com.android.application'
+apply plugin: 'io.fabric'
+
+repositories {
+    maven { url 'https://maven.fabric.io/public' }
+}
+
+
+android {
+    compileSdkVersion 29
+    defaultConfig {
+        applicationId "freaktemplate.shopping"
+        minSdkVersion 19
+        targetSdkVersion 29
+        versionCode 5
+        versionName "1.0.5"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+
+       /* externalNativeBuild {
+            cmake {
+                cppFlags ""
+            }
+        }*/
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    /*externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+            version "3.10.2"
+        }
+    }*/
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'com.github.ome450901:SimpleRatingBar:1.4.3'
+    implementation 'com.nshmura:snappysmoothscroller:1.0.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    implementation 'com.jinqiu:scaleviewpager:1.0.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+    implementation 'me.relex:circleindicator:2.1.2'
+    implementation 'com.github.zcweng:switch-button:0.0.3@aar'
+    implementation 'com.google.android.gms:play-services-location:17.0.0'
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+    implementation 'org.greenrobot:eventbus:3.1.1'
+    implementation 'me.zhouzhuo.zzhorizontalprogressbar:zz-horizontal-progressbar:1.1.0'
+    implementation 'net.skoumal.fragmentback:fragment-back:0.2.3'
+    implementation 'com.readystatesoftware.sqliteasset:sqliteassethelper:2.0.1'
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+    implementation 'com.airbnb.android:lottie:3.0.6'
+    implementation project(path: ':appbarspring')
+    implementation project(path: ':xtablayoutlibrary')
+    implementation project(path: ':MaterialDialogLibrary')
+    implementation 'com.airbnb.android:lottie:3.0.6'
+    implementation 'org.apache.commons:commons-lang3:3.5'
+    implementation 'com.makeramen:roundedimageview:2.3.0'
+    implementation 'com.treebo:internetavailabilitychecker:1.0.4'
+    implementation 'com.facebook.android:facebook-android-sdk:5.13.0'
+    implementation 'com.facebook.android:facebook-share:5.13.0'
+    implementation 'com.facebook.android:facebook-messenger:5.13.0'
+    implementation 'com.facebook.android:audience-network-sdk:5.4.1'
+    implementation 'com.github.parse-community:ParseFacebookUtils-Android:1.14.0'
+    implementation 'com.google.firebase:firebase-messaging:20.1.0'
+    implementation 'com.google.android.gms:play-services-auth:17.0.0'
+    implementation 'com.google.firebase:firebase-analytics:17.2.2'
+    implementation 'com.github.santalu:aspect-ratio-imageview:1.0.8'
+    implementation 'com.github.worker8:radiogroupplus:v1.0.1'
+    implementation 'io.realm:android-adapters:3.1.0'
+    implementation 'io.realm:realm-gradle-plugin:6.0.2'
+    implementation 'com.facebook.shimmer:shimmer:0.4.0'
+    implementation 'com.todkars:shimmer-recyclerview:0.4.0'
+    implementation 'com.stripe:stripe-android:6.1.2'
+    implementation 'com.paypal.sdk:paypal-android-sdk:2.16.0'
+    implementation 'com.ethanhua:skeleton:1.1.2'
+    implementation 'io.supercharge:shimmerlayout:2.1.0'
+    implementation 'com.google.android.gms:play-services-ads:19.0.0'
+    implementation "com.github.godness84:appbar-snap-behavior:0.1.4"
+    implementation 'com.scottyab:secure-preferences-lib:0.1.7'
+    implementation project(':shimmer')
+    implementation 'com.litedevs:oriented-image-view:1.0'
+    implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
+    implementation 'com.github.wangchenyan:html-text:1.0'
+
+}
+apply plugin: 'com.google.gms.google-services'
+configurations.matching { it.name == '_internal_aapt2_binary' }.all { config ->
+    config.resolutionStrategy.eachDependency { details ->
+        details.useVersion("3.3.2-5309881")
+    }
+}

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.OrderStatus">
+
+    <RelativeLayout
+        android:id="@+id/main_header"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="13sp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_date"
+            android:layout_marginTop="10dp">
+
+            <ImageView
+                android:id="@+id/img_place"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/place" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="15dp"
+                android:layout_toEndOf="@id/img_place">
+
+                <ImageView
+                    android:id="@+id/notpad"
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/notepad" />
+
+                <TextView
+                    android:id="@+id/order_placed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/notpad"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/orders_pending"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/order_placed"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/notpad"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/we_have_received_your_order"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_placetime"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/place_root1"
+                android:layout_width="4dp"
+                android:layout_height="43dp"
+                android:layout_below="@id/img_place"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/place_root" />
+
+            <ImageView
+                android:id="@+id/img_paymentconfirmed"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/place_root1"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/placed" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/place_root1"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-5dp"
+                android:layout_toEndOf="@id/img_paymentconfirmed">
+
+                <ImageView
+                    android:id="@+id/payment"
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/hand_l_capacity" />
+
+                <TextView
+                    android:id="@+id/confirmed_payment"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/payment"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/orders_processing"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/confirmed_payment"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/payment"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/awaiting_confirmation"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_paymenttime"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/place_root2"
+                android:layout_width="4dp"
+                android:layout_height="43dp"
+                android:layout_below="@id/img_paymentconfirmed"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/place_root" />
+
+            <ImageView
+                android:id="@+id/img_orderproceed"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/place_root2"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/placed" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/place_root2"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-5dp"
+                android:layout_toEndOf="@id/img_orderproceed">
+
+                <ImageView
+                    android:id="@+id/order_procced"
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/stop_l_capacity" />
+
+                <TextView
+                    android:id="@+id/txt_orderproceed"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/order_procced"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/orders_on_hold"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_orderproceed"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/order_procced"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/we_are_preparing_your_order"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_ordertime"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/place_root3"
+                android:layout_width="4dp"
+                android:layout_height="43dp"
+                android:layout_below="@id/img_orderproceed"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/place_root" />
+
+            <ImageView
+                android:id="@+id/img_pickup"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:layout_below="@id/place_root3"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/placed" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/place_root3"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="-5dp"
+                android:layout_toEndOf="@id/img_orderproceed">
+
+                <ImageView
+                    android:id="@+id/pickup"
+                    android:layout_width="30dp"
+                    android:layout_height="33dp"
+                    android:src="@drawable/pickup_l_opacity" />
+
+                <TextView
+                    android:id="@+id/txt_pickup"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/pickup"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/orders_delivered"
+                    android:textColor="@color/black"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txtDeldes"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_pickup"
+                    android:layout_marginStart="15dp"
+                    android:layout_toEndOf="@id/pickup"
+                    android:fontFamily="@font/opensans_regular"
+                    android:text="@string/order_12374_from_tasty_food"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/txt_pickuptime"
+                    android:layout_width="80dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxLines="2"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textColor="@color/greay"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_deliveryboy"
+        android:layout_width="250dp"
+        android:layout_height="58dp"
+        android:layout_below="@id/main_header"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/delivery_boyprofile"
+        android:visibility="gone">
+
+
+        <freaktemplate.shopping.utils.RoundedImageView
+            android:id="@+id/img_deliveryboy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/img" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_toEndOf="@id/img_deliveryboy"
+            android:fontFamily="@font/opensans_semibold"
+            android:text="Akhil"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:layout_marginStart="20dp"
+            android:layout_toEndOf="@id/img_deliveryboy"
+            android:fontFamily="@font/opensans_regular"
+            android:text="20 Minute ago"
+            android:textColor="@color/greay" />
+
+        <ImageView
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerInParent="true"
+            android:layout_marginEnd="10dp"
+            android:src="@drawable/cell_phone" />
+    </RelativeLayout>
+</RelativeLayout>

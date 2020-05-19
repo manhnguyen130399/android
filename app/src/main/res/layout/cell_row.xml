@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/lin_cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:id="@+id/rel_spec"
+                android:layout_width="250dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/txt_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="5dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:padding="10dp"
+                    android:text="Color"
+                    android:textColor="@color/greay"
+                    android:textSize="10dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/line1"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_toEndOf="@id/txt_name"
+                android:background="@color/table_border" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/rel_brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/txt_brand"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_gravity="center"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:padding="10dp"
+                            android:text="Color"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <!--
+                                        <ImageView
+                                            android:id="@+id/line2nd"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0.6dp"
+                                            android:layout_below="@id/txt_brand"
+                                            android:background="@color/table_border"
+                                            android:visibility="gone" />
+                        -->
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="@color/table_border" />
+
+                    <RelativeLayout
+                        android:id="@+id/rel_sam"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1">
+
+                        <TextView
+                            android:id="@+id/txt_spec"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentStart="true"
+                            android:layout_centerInParent="true"
+                            android:layout_marginStart="5dp"
+                            android:fontFamily="@font/opensans_semibold"
+                            android:gravity="start|center"
+                            android:padding="10dp"
+                            android:text="Color"
+                            android:textColor="@color/black"
+                            android:textSize="10dp" />
+
+                        <!--
+                                        <ImageView
+                                            android:id="@+id/line3rd"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0.6dp"
+                                            android:layout_below="@id/txt_spec"
+                                            android:background="@color/table_border"
+                                            android:visibility="gone" />
+                        -->
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/icLine"
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/table_border" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/line"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:background="@color/table_border" />
+
+        <ImageView
+            android:id="@+id/line10"
+            android:layout_width="match_parent"
+            android:layout_height="0.8dp"
+            android:layout_below="@+id/lin_cell"
+            android:background="@color/table_border"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>
+

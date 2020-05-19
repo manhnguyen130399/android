@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:ignore="RtlCompat,SpUsage">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:background="@drawable/dailog_box_bg">
+
+            <RelativeLayout
+                android:id="@+id/rl_text"
+                android:layout_width="fill_parent"
+                android:layout_height="50dp"
+                android:background="@color/orange">
+
+                <TextView
+                    android:id="@+id/txt_header"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/add_review"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    tools:ignore="SpUsage" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rl_text"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="5dp">
+
+
+                <com.willy.ratingbar.ScaleRatingBar
+                    android:id="@+id/rate1234"
+                    style="@style/rat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="3dp"
+                    android:focusableInTouchMode="false"
+                    app:srb_clearRatingEnabled="true"
+                    app:srb_clickable="true"
+                    app:srb_drawableEmpty="@drawable/unfill_star"
+                    app:srb_drawableFilled="@drawable/fill_star"
+                    app:srb_numStars="5"
+                    app:srb_scrollable="false"
+                    app:srb_starHeight="30dp"
+                    app:srb_starPadding="1dp"
+                    app:srb_starWidth="30dp" />
+            </RelativeLayout>
+
+            <EditText
+                android:id="@+id/txt_description"
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@+id/rel_text"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="10dp"
+                android:background="@android:color/transparent"
+                android:fontFamily="@font/opensans_regular"
+                android:gravity="top|start"
+                android:hint="@string/hint"
+                android:includeFontPadding="false"
+                android:inputType="textMultiLine"
+                android:lines="3"
+                android:maxLines="3"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="8dp"
+                android:textColor="#000000"
+                android:textSize="14dp"
+                tools:ignore="SpUsage" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/txt_description"
+                android:layout_marginBottom="15dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_submit"
+                    style="@style/MaterialDialog.Dialog"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/submit"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    tools:ignore="RtlCompat,SpUsage" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btn_cancel"
+                    style="@style/MaterialDialog.Dialog"
+                    android:layout_width="130dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="15dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="@string/cancle"
+                    android:textAllCaps="true"
+                    android:textColor="#fff"
+                    android:textSize="14dp"
+                    tools:ignore="SpUsage" />
+            </LinearLayout>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

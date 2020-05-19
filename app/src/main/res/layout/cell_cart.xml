@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="10dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="90dp"
+                android:layout_height="86dp"
+                android:layout_margin="11dp"
+                app:cardBackgroundColor="#EEEDEE"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:id="@+id/img_wish"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="5dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/bag_about" />
+
+            </androidx.cardview.widget.CardView>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="91dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp">
+
+                <TextView
+                    android:id="@+id/txt_wishname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginEnd="10dp"
+                    android:layout_toStartOf="@id/txt_price"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:maxLines="2"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+
+                <TextView
+                    android:id="@+id/txt_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginEnd="10dp"
+                    android:fontFamily="@font/opensans_semibold"
+                    android:text="$ 450.00"
+                    android:textColor="@color/black"
+                    android:textSize="12dp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/relPlus"
+                    android:layout_below="@id/txt_wishname"
+                    android:layout_marginTop="5dp">
+
+                    <TextView
+                        android:id="@+id/txt_color"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="start|center"
+                        android:text=""
+                        android:textColor="@color/light_greay"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:id="@+id/txt_material"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toEndOf="@id/txt_color"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:text="Material : Leather"
+                        android:textColor="@color/light_greay"
+                        android:textSize="10dp"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_ram"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="20dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="start|center"
+                        android:text=""
+                        android:textColor="@color/light_greay"
+                        android:textSize="10dp"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/txt_rom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/txt_color"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="@font/opensans_semibold"
+                        android:gravity="start|center"
+                        android:text=""
+                        android:textColor="@color/light_greay"
+                        android:textSize="10dp"
+                        android:visibility="visible" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relPlus"
+                    android:layout_width="90dp"
+                    android:layout_height="27dp"
+                    android:layout_alignParentBottom="true"
+                    android:background="@drawable/round_plusminus"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/minus"
+                        android:layout_width="15dp"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="10dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/minus" />
+
+                    <TextView
+                        android:id="@+id/txt_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_toStartOf="@+id/plus"
+                        android:layout_toEndOf="@+id/minus"
+                        android:fontFamily="@font/opensans_regular"
+                        android:gravity="center"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="13dp" />
+
+                    <ImageView
+                        android:id="@+id/plus"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center"
+                        android:layout_marginEnd="10dp"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/add" />
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

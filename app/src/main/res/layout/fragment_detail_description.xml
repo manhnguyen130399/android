@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    tools:context="freaktemplate.shopping.fragment.DetailDescription">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/lin_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <!--
+                        <RelativeLayout
+                            android:id="@+id/rel_spinnercolor"
+                            android:layout_width="165dp"
+                            android:layout_height="43dp"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/color_box">
+
+                            <Spinner
+                                android:id="@+id/spin_color"
+                                android:layout_width="match_parent"
+                                android:layout_height="25dp"
+                                android:layout_centerInParent="true"
+                                android:layout_marginStart="5dp"
+                                android:layout_marginEnd="5dp"
+                                android:background="@null"
+                                android:spinnerMode="dropdown" />
+
+                            <ImageView
+                                android:layout_width="10dp"
+                                android:layout_height="6dp"
+                                android:layout_alignParentEnd="true"
+                                android:layout_centerVertical="true"
+                                android:layout_marginEnd="5dp"
+                                android:src="@drawable/bottom_arrow" />
+                        </RelativeLayout>
+            -->
+            <RelativeLayout
+                android:id="@+id/rel_spinnercolor"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="15dp"
+                android:layout_marginTop="5dp"
+                >
+
+                <RelativeLayout
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/color_size">
+
+                    <Spinner
+                        android:id="@+id/spin_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@null"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="6dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/bottom_arrow" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_option"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_regular"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:text="@string/size"
+                    android:textAllCaps="true"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_spinnersize"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/rel_spinnerromsize">
+
+                <RelativeLayout
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/color_size">
+
+                    <Spinner
+                        android:id="@+id/spin_size"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@null"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="6dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/bottom_arrow" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_regular"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:text="@string/size"
+                    android:textAllCaps="true"
+                    android:textSize="10sp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rel_spinnerromsize"
+                android:layout_width="165dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/rel_spinnercolor"
+                android:layout_marginTop="5dp">
+
+                <RelativeLayout
+                    android:layout_width="165dp"
+                    android:layout_height="43dp"
+                    android:layout_marginTop="9dp"
+                    android:background="@drawable/color_size">
+
+                    <Spinner
+                        android:id="@+id/spin_rom"
+                        android:layout_width="match_parent"
+                        android:layout_height="25dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginEnd="5dp"
+                        android:background="@null"
+                        android:spinnerMode="dropdown" />
+
+                    <ImageView
+                        android:layout_width="10dp"
+                        android:layout_height="6dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/bottom_arrow" />
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/txt_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/white"
+                    android:ellipsize="end"
+                    android:fontFamily="@font/opensans_regular"
+                    android:includeFontPadding="false"
+                    android:maxLines="1"
+                    android:padding="2dp"
+                    android:text="@string/size"
+                    android:textAllCaps="true"
+                    android:textSize="10sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/lin_spinner"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:id="@+id/txt_sku"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/sku"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/sku_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/txt_sku"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/n_a"
+                android:textColor="@color/greay"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_sku"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/category_"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/category"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_sku"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/txt_category"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/greay"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/txt_tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_category"
+                android:layout_marginTop="5dp"
+                android:fontFamily="@font/opensans_regular"
+                android:text="@string/tags"
+                android:textColor="@color/black"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/tags"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txt_category"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_toEndOf="@id/txt_tags"
+                android:fontFamily="@font/opensans_regular"
+                android:textColor="@color/greay"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rel_text"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensans_regular"
+            android:text="@string/text"
+            android:textColor="@color/text_color"
+            android:textSize="14sp" />
+    </RelativeLayout>
+</RelativeLayout>
