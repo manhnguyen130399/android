@@ -108,6 +108,7 @@ dependencies {
     implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
     implementation 'com.github.wangchenyan:html-text:1.0'
 
+
 }
 apply plugin: 'com.google.gms.google-services'
 configurations.matching { it.name == '_internal_aapt2_binary' }.all { config ->

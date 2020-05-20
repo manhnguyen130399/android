@@ -20,6 +20,8 @@ import com.androidnetworking.error.ANError;
 import com.androidnetworking.interfaces.JSONObjectRequestListener;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import com.paypal.android.sdk.da;
+import com.paypal.android.sdk.em;
 
 import org.json.JSONObject;
 
@@ -137,7 +139,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         UtilHelper.showdialog(context);
         String token = SPmanager.getPreference(context, "token");
        // String url = getString(R.string.link) + "userregister";
-        String url = "http://10.0.0.125:8080/APIAndroid1/api/register";
+        String url = "http://10.0.0.111:8080/APIAndroid1/api/register";
 
        // Log.e(TAG, "registerUser: " + url);
         AndroidNetworking.post(url)
@@ -153,15 +155,21 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 .getAsJSONObject(new JSONObjectRequestListener() {
                     @Override
                     public void onResponse(JSONObject response) {
-                        Log.e(TAG, "onResponse: " + response);
+                       // Log.e(TAG, "onResponse: " + response);
+
+
                         Register responseObject = gson.fromJson(String.valueOf(response), Register.class);
+
+
+                        Log.e(TAG, "onResponse: " + response);
 
                         if (responseObject.getStatus().equals(1)) {
                             Data data = responseObject.getData();
-                            String id = String.valueOf(data.getId());
+                            String id = data.getId().toString();
                             String first_name = data.getFirstName();
                             String phone1 = data.getPhone();
                             String email = data.getEmail();
+                            Toast.makeText(RegisterActivity.this, id, Toast.LENGTH_SHORT).show();
                             SPmanager.saveValue(context, "userID", id);
                             SPmanager.saveValue(context, "email", email);
                             SPmanager.saveValue(context, "user_name", first_name);
