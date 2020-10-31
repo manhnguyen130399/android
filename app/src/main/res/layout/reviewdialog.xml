@@ -19,7 +19,7 @@
                 android:id="@+id/rl_text"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
-                android:background="@color/orange">
+                android:background="@color/yellow">
 
                 <TextView
                     android:id="@+id/txt_header"
@@ -96,6 +96,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_submit"
                     style="@style/MaterialDialog.Dialog"
+                    android:backgroundTint="@color/green"
                     android:layout_width="130dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="freaktemplate.shopping">
+    package="manhnguyen.shopping">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-sdk tools:overrideLibrary="com.theophrast.ui.widget" />
     <application
-        android:name=".MyApplication"
+        android:name="manhnguyen.shopping.MyApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@drawable/app_icon"
@@ -17,7 +17,7 @@
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true"
         tools:ignore="AllowBackup,GoogleAppIndexingWarning,UnusedAttribute">
-        <activity android:name=".activity.SplashActivity">
+        <activity android:name="manhnguyen.shopping.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,23 +25,23 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".activity.HelpCenter"
+            android:name="manhnguyen.shopping.activity.HelpCenter"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".activity.AboutUs"
+            android:name="manhnguyen.shopping.activity.AboutUs"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".activity.ReportSpamActivity"
+            android:name="manhnguyen.shopping.activity.ReportSpamActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".activity.SearchActivity"
+            android:name="manhnguyen.shopping.activity.SearchActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".activity.OfferActivity"
+            android:name="manhnguyen.shopping.activity.OfferActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
 
@@ -77,24 +77,24 @@
             android:value="@string/default_notification_channel_id" />
 
         <activity
-            android:name=".activity.PaymentActivity"
+            android:name="manhnguyen.shopping.activity.PaymentActivity"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
         <activity
-            android:name=".activity.OrderList"
+            android:name="manhnguyen.shopping.activity.OrderList"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="stateHidden|adjustPan" />
-        <activity android:name=".activity.Categorylist" />
-        <activity android:name=".activity.MyOrderActivity" />
+        <activity android:name="manhnguyen.shopping.activity.Categorylist" />
+        <activity android:name="manhnguyen.shopping.activity.MyOrderActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
             android:value="ca-app-pub-3940256099942544~3347511713" />
 
-        <activity android:name=".activity.TermsAndCondition" />
-        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name="manhnguyen.shopping.activity.TermsAndCondition" />
+        <activity android:name="manhnguyen.shopping.activity.RegisterActivity" />
         <activity
-            android:name=".activity.HomeActivity"
+            android:name="manhnguyen.shopping.activity.HomeActivity"
             android:fitsSystemWindows="true"
             android:screenOrientation="fullSensor"
             android:windowSoftInputMode="adjustPan">
@@ -105,19 +105,19 @@
              </intent-filter>-->
         </activity>
         <activity
-            android:name=".activity.LocationActivity"
+            android:name="manhnguyen.shopping.activity.LocationActivity"
             android:screenOrientation="fullSensor" />
         <activity
-            android:name=".activity.AccountDetail"
+            android:name="manhnguyen.shopping.activity.AccountDetail"
             android:screenOrientation="fullSensor" />
-        <activity android:name=".activity.ForgetPasswordActivity" />
+        <activity android:name="manhnguyen.shopping.activity.ForgetPasswordActivity" />
 
         <meta-data
             android:name="com.google.android.maps.v2.API_KEY"
             android:value="@string/mapskey" />
 
         <service
-            android:name=".firebasejavas.MyFirebaseMessagingService"
+            android:name="manhnguyen.shopping.firebasejavas.MyFirebaseMessagingService"
             android:exported="false">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />

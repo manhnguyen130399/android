@@ -298,7 +298,7 @@
         android:visibility="gone">
 
 
-        <freaktemplate.shopping.utils.RoundedImageView
+        <manhnguyen.shopping.utils.RoundedImageView
             android:id="@+id/img_deliveryboy"
             android:layout_width="50dp"
             android:layout_height="50dp"

@@ -70,6 +70,7 @@
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/rele_submit"
                 style="@style/MaterialDialog.Dialog"
+                android:backgroundTint="@color/green"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

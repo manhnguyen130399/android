@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="freaktemplate.shopping.fragment.UserFragment">
+    tools:context="manhnguyen.shopping.fragment.UserFragment">
 
     <RelativeLayout
         android:id="@+id/header"
@@ -17,6 +17,7 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/my_account"
+            android:background="@color/yellow"
             android:textColor="@color/black"
             android:textSize="18sp" />
     </RelativeLayout>

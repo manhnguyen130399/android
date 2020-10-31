@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@color/white"
-    tools:context="freaktemplate.shopping.fragment.DetailInformation">
+    tools:context="manhnguyen.shopping.fragment.DetailInformation">
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

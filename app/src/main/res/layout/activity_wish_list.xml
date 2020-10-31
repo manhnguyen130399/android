@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="freaktemplate.shopping.fragment.WishFragment">
+    tools:context="manhnguyen.shopping.fragment.WishFragment">
 
     <RelativeLayout
         android:id="@+id/rel_header"
@@ -27,6 +27,7 @@
             android:layout_centerInParent="true"
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/wishlist"
+            android:background="@color/yellow"
             android:textColor="@color/black"
             android:textSize="18sp" />
     </RelativeLayout>

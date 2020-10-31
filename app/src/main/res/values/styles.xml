@@ -29,7 +29,7 @@
     <style name="MaterialDialog.Dialog" parent="@style/Widget.MaterialComponents.Button.UnelevatedButton.Icon">
         <item name="android:layout_margin">4dp</item>
         <item name="android:textAllCaps">false</item>
-        <item name="backgroundTint">@color/orange</item>
+        <item name="backgroundTint">@color/greay</item>
     </style>
 
     <style name="NewTheme" parent="Widget.Design.TextInputLayout">

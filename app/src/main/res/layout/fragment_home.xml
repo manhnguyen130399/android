@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="freaktemplate.shopping.fragment.HomeFragment">
+    tools:context="manhnguyen.shopping.fragment.HomeFragment">
 
     <RelativeLayout
         android:id="@+id/rel_header"
@@ -32,7 +32,7 @@
             android:fontFamily="@font/opensans_bold"
             android:text="@string/shop"
             android:textAllCaps="true"
-            android:textColor="@color/orange"
+            android:textColor="@color/yellow"
             android:textSize="20sp" />
 
         <ImageView

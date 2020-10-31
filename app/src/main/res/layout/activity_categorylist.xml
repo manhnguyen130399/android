@@ -5,13 +5,13 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="freaktemplate.shopping.activity.Categorylist">
+    tools:context="manhnguyen.shopping.activity.Categorylist">
 
     <RelativeLayout
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white">
+        android:background="@color/yellow">
 
         <ImageView
             android:id="@+id/ic_back"

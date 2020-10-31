@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="freaktemplate.shopping.activity.MyOrderActivity">
+    tools:context="manhnguyen.shopping.activity.MyOrderActivity">
 
     <RelativeLayout
         android:id="@+id/rel_header"
@@ -29,7 +29,8 @@
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/my_orders"
             android:textColor="@color/black"
-            android:textSize="18sp" />
+            android:textSize="18sp"
+            android:background="@color/yellow"/>
     </RelativeLayout>
 
     <ImageView

@@ -15,7 +15,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <freaktemplate.shopping.utils.RoundedImageView
+            <manhnguyen.shopping.utils.RoundedImageView
                 android:id="@+id/img_profile"
                 android:layout_width="50dp"
                 android:layout_height="50dp"

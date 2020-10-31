@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/white"
-    tools:context="freaktemplate.shopping.fragment.HomeFragment">
+    tools:context="manhnguyen.shopping.fragment.HomeFragment">
 
     <RelativeLayout
         android:id="@+id/rel_header"
@@ -33,7 +33,8 @@
             android:text="@string/offer"
             android:textAllCaps="true"
             android:textColor="@color/black"
-            android:textSize="20sp" />
+            android:textSize="20sp"
+            android:background="@color/yellow"/>
     </RelativeLayout>
 
     <androidx.core.widget.NestedScrollView

@@ -28,7 +28,8 @@
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/my_account"
             android:textColor="@color/black"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:background="@color/yellow"/>
     </RelativeLayout>
 
     <RelativeLayout

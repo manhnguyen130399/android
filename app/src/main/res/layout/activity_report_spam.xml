@@ -50,7 +50,7 @@
             android:background="#9D9D9D"
             tools:ignore="Suspicious0dp" />
 
-        <freaktemplate.shopping.utils.MyCheckBox
+        <manhnguyen.shopping.utils.MyCheckBox
             android:id="@+id/chk_phonnumber"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -65,7 +65,7 @@
             android:layout_margin="5dp"
             android:background="#9D9D9D" />
 
-        <freaktemplate.shopping.utils.MyCheckBox
+        <manhnguyen.shopping.utils.MyCheckBox
             android:id="@+id/chk_address"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -80,7 +80,7 @@
             android:layout_margin="5dp"
             android:background="#9D9D9D" />
 
-        <freaktemplate.shopping.utils.MyCheckBox
+        <manhnguyen.shopping.utils.MyCheckBox
             android:id="@+id/chk_placeclosed"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -95,7 +95,7 @@
             android:layout_margin="5dp"
             android:background="#9D9D9D" />
 
-        <freaktemplate.shopping.utils.MyCheckBox
+        <manhnguyen.shopping.utils.MyCheckBox
             android:id="@+id/chk_menuisincorrect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -131,7 +131,7 @@
             android:layout_width="match_parent"
             android:layout_height="55dp"
             android:layout_margin="5dp"
-            android:background="@drawable/round_rect_orange"
+            android:background="@color/green"
             android:fontFamily="@font/opensans_semibold"
             android:gravity="center"
             android:text="@string/submit"
