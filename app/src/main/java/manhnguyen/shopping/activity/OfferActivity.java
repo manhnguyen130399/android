@@ -273,7 +273,7 @@ public class OfferActivity extends AppCompatActivity implements CoutomProductLis
 
         txt_collection.setText(title);
         txt_percentoff.setText(fixed_to + getString(R.string.percentage) + getString(R.string.offf));
-        Glide.with(getApplicationContext()).load(getString(R.string.imagelink) + "public/upload/offer/image/" + banner).into(img_banner);
+        Glide.with(getApplicationContext()).load("http://192.168.0.30/upload/offer/image/" + banner).into(img_banner);
 
         btn_shop.setOnClickListener(new View.OnClickListener() {
             @Override

@@ -136,9 +136,8 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private void registerUser(String name, String phone, String email, String password) {
         UtilHelper.showdialog(context);
         String token = SPmanager.getPreference(context, "token");
-       // String url = getString(R.string.link) + "userregister";
-        String url = "http://10.0.0.111:8080/APIAndroid1/api/register";
-
+        String url = getString(R.string.link) + "userregister";
+        //String url = "http://192.168.0.30/api/userregister";
        // Log.e(TAG, "registerUser: " + url);
         AndroidNetworking.post(url)
 
