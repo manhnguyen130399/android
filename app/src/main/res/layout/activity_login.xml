@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F8F8F9"
+    android:background="#FAFAFA"
     android:orientation="vertical"
     android:weightSum="4">
 
@@ -125,7 +125,7 @@
                 android:id="@+id/txt_login"
                 android:layout_width="162dp"
                 android:layout_height="50dp"
-                android:background="@drawable/rounded_rectangle_2"
+                android:background="#0080FF"
                 android:fontFamily="@font/opensans_bold"
                 android:gravity="center"
                 android:text="@string/login"

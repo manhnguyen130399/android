@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#FAFAFA"
     tools:context="manhnguyen.shopping.activity.PaymentActivity">
 
     <RelativeLayout
@@ -104,7 +104,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_weight="1"
-            android:background="@color/com_facebook_messenger_blue"
+            android:background="#00BFFF"
             android:gravity="center"
             android:text="@string/back"
             android:textAllCaps="true"
@@ -117,7 +117,7 @@
             android:layout_gravity="center"
             android:layout_marginStart="15dp"
             android:layout_weight="1"
-            android:background="@color/green"
+            android:background="#01DF74"
             android:gravity="center"
             android:text="@string/next_step"
             android:textAllCaps="true"

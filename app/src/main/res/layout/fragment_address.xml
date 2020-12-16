@@ -260,7 +260,7 @@
                     android:layout_alignParentEnd="true"
                     android:layout_centerVertical="true"
                     app:sb_checked="true"
-                    app:sb_checked_color="#029124"
+                    app:sb_checked_color="#04B45F"
                     app:sb_show_indicator="false" />
             </RelativeLayout>
 

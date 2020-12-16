@@ -64,13 +64,14 @@
                 android:fontFamily="@font/opensans_bold"
                 android:text="@string/no"
                 android:textColor="#fff"
+                android:background="#BDBDBD"
                 app:icon="@drawable/ic_clear_black_24dp"
                 app:iconGravity="textStart" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/rele_submit"
                 style="@style/MaterialDialog.Dialog"
-                android:backgroundTint="@color/green"
+                android:backgroundTint="#01DF74"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"

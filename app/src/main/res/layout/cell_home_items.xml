@@ -6,7 +6,7 @@
     android:layout_height="260dp"
     android:layout_marginEnd="10dp"
     android:layout_marginBottom="10dp"
-    android:background="@drawable/product_background"
+    android:background="#FAFAFA"
     android:orientation="horizontal"
     tools:ignore="RtlCompat">
 
@@ -208,7 +208,7 @@
                     android:layout_height="19dp"
                     android:layout_alignParentEnd="true"
                     android:layout_alignParentBottom="true"
-                    android:background="@drawable/rounded_rectangle_2"
+                    android:background="#FE9A2E"
                     android:gravity="center"
                     android:includeFontPadding="false"
                     android:text="@string/shop_now"

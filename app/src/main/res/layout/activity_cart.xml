@@ -3,14 +3,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#FAFAFA"
     tools:context="manhnguyen.shopping.fragment.CartFragment">
 
     <RelativeLayout
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="@color/white">
+        android:layout_height="50dp"
+        android:background="#FFBF00">
 
         <ImageView
             android:id="@+id/ic_back"
@@ -48,7 +48,7 @@
         android:layout_height="match_parent"
         android:layout_above="@+id/rel_checkout"
         android:layout_below="@id/rel_header"
-        android:background="#F2F3F5">
+        android:background="#FAFAFA">
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/recycle_cart"
@@ -243,7 +243,7 @@
             android:layout_height="50dp"
             android:layout_below="@+id/rel_texttotal"
             android:layout_margin="10dp"
-            android:background="@color/green"
+            android:background="#01DF74"
             android:fontFamily="@font/opensans_bold"
             android:gravity="center"
             android:text="@string/proceed_to_checkout"

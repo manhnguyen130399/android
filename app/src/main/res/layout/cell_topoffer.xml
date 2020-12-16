@@ -49,7 +49,7 @@
                 android:fontFamily="@font/opensans_bold"
                 android:includeFontPadding="false"
                 android:text="Latest Fashion"
-                android:textColor="@color/orange"
+                android:textColor="#FE9A2E"
                 android:textSize="17sp" />
 
             <TextView
@@ -70,7 +70,7 @@
                 android:layout_height="25dp"
                 android:layout_gravity="center"
                 android:layout_marginTop="8dp"
-                android:background="@drawable/rounded_rectangle_2"
+                android:background="#FE9A2E"
                 android:fontFamily="@font/opensans_bold"
                 android:text="@string/shop_now"
                 android:textColor="@color/white"

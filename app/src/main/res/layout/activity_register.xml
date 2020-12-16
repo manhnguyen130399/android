@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#FAFAFA"
     android:orientation="vertical"
     android:weightSum="3.5"
     tools:context="manhnguyen.shopping.activity.RegisterActivity">
@@ -232,7 +232,7 @@
                 android:layout_below="@id/check"
                 android:layout_centerInParent="true"
                 android:layout_marginTop="30dp"
-                android:background="@drawable/rounded_rectangle_2"
+                android:background="#00BFFF"
                 android:fontFamily="@font/opensans_bold"
                 android:gravity="center"
                 android:text="@string/register"

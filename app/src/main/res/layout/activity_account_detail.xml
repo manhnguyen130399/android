@@ -2,14 +2,14 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="#FAFAFA"
     android:orientation="vertical">
 
     <RelativeLayout
         android:id="@+id/rele_header"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:background="@color/white"
+        android:background="#FFBF00"
         android:visibility="visible">
 
         <ImageView
@@ -28,15 +28,14 @@
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/my_account"
             android:textColor="@color/black"
-            android:textSize="15sp"
-            android:background="@color/yellow"/>
+            android:textSize="15sp" />
     </RelativeLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/rele_header"
-        android:background="@color/white">
+        android:background="#FAFAFA">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -128,12 +127,12 @@
                 android:layout_marginTop="15sp"
                 android:layout_marginEnd="15sp"
                 android:layout_weight="1"
-                android:background="@drawable/back_button"
+                android:background="#BDBDBD"
                 android:fontFamily="@font/opensans_bold"
                 android:gravity="center"
                 android:text="@string/edit"
                 android:textAllCaps="true"
-                android:textColor="@color/orange" />
+                android:textColor="#FE9A2E" />
 
             <TextView
                 android:id="@+id/txt_save"

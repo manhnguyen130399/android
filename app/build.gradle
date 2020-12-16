@@ -107,6 +107,7 @@ dependencies {
     implementation 'com.litedevs:oriented-image-view:1.0'
     implementation 'com.crashlytics.sdk.android:crashlytics:2.10.1'
     implementation 'com.github.wangchenyan:html-text:1.0'
+    implementation 'com.beardedhen:androidbootstrap:2.3.2'
 
 
 }

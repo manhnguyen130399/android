@@ -2,10 +2,10 @@
     <string name="app_name">SHOP</string>
 
 
-<!--    <string name="link" translatable="false">https://aqurvent.eymcloud.com/api/</string>-->
-<!--    <string name="imagelink" translatable="false">https://aqurvent.eymcloud.com/</string>-->
-    <string name="link" translatable="false">http://192.168.0.30/api/</string>
-    <string name="imagelink" translatable="false">>http://192.168.0.30/</string>
+    <string name="link" translatable="false">https://aqurvent.eymcloud.com/api/</string>
+    <string name="imagelink" translatable="false">https://aqurvent.eymcloud.com/</string>
+<!--    <string name="link" translatable="false">http://192.168.0.30/api/</string>-->
+<!--    <string name="imagelink" translatable="false">>http://192.168.0.30/</string>-->
 
     <string name="termsand" translatable="false"><![CDATA[<font color=\'#0000F7\'>terms And conditions</font>]]></string>
     <string name="txt_regdesc" translatable="false">Lorem ipsum is simply dummy text of the printing and typesetting industry.</string>
