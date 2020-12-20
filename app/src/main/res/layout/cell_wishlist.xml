@@ -81,7 +81,7 @@
                         android:id="@+id/add_cart"
                         android:layout_width="70dp"
                         android:layout_height="22dp"
-                        android:background="@drawable/buynow_button"
+                        android:background="#FE9A2E"
                         android:fontFamily="@font/opensans_bold"
                         android:gravity="center"
                         android:text="@string/shop_now"
@@ -101,7 +101,7 @@
                         android:fontFamily="@font/opensans_semibold"
                         android:text="@string/remove"
                         android:textAllCaps="true"
-                        android:textColor="@color/orange"
+                        android:textColor="#FE9A2E"
                         android:textSize="11dp"
                         android:visibility="visible" />
                 </RelativeLayout>

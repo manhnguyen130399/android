@@ -4,7 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="manhnguyen.shopping.activity.HomeActivity"
-    tools:ignore="SmallSp">
+    tools:ignore="SmallSp"
+    android:background="#FAFAFA">
 
     <FrameLayout
         android:id="@+id/container"
@@ -115,7 +116,7 @@
                     android:gravity="center"
                     android:text="@string/cart"
                     android:textAllCaps="true"
-                    android:textColor="@color/orange"
+                    android:textColor="#FE9A2E"
                     android:textSize="13sp"
                     android:visibility="gone" />
             </LinearLayout>

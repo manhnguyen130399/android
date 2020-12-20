@@ -5,15 +5,15 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/grey"
+    android:background="#FAFAFA"
     tools:ignore="SmallSp,ContentDescription,Autofill">
 
     <RelativeLayout
         android:id="@+id/header"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="50dp"
         android:layout_marginStart="5dp"
-        android:background="@color/white">
+        android:background="#FFBF00">
 
         <ImageView
             android:id="@+id/ic_back"
@@ -36,7 +36,6 @@
             android:layout_marginEnd="10dp"
             android:layout_marginBottom="14dp"
             android:layout_toEndOf="@+id/ic_back"
-            android:background="@color/yellow"
             android:fontFamily="@font/opensans_semibold"
             android:gravity="center"
             android:includeFontPadding="false"

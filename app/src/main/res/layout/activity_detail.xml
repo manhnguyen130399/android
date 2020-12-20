@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#f0f0f0"
+    android:background="#FAFAFA"
     tools:ignore="RtlCompat,SmallSp">
 
     <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -245,7 +245,7 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="20dp"
                     android:layout_toEndOf="@id/txt_totalreview"
-                    android:background="@drawable/addtocart_button"
+                    android:background="#F2F2F2"
                     android:fontFamily="@font/opensans_semibold"
                     android:gravity="center"
                     android:text="@string/add_to_cart"
@@ -261,7 +261,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_toEndOf="@id/add_to_cart"
-                    android:background="@color/green"
+                    android:background="#01DF74"
                     android:fontFamily="@font/opensans_semibold"
                     android:gravity="center"
                     android:includeFontPadding="false"

@@ -19,7 +19,7 @@
                 android:id="@+id/rl_text"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
-                android:background="@color/yellow">
+                android:background="#FFBF00">
 
                 <TextView
                     android:id="@+id/txt_header"
@@ -96,7 +96,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_submit"
                     style="@style/MaterialDialog.Dialog"
-                    android:backgroundTint="@color/green"
+                    android:backgroundTint="#01DF74"
                     android:layout_width="130dp"
                     android:layout_height="50dp"
                     android:layout_marginStart="10dp"
@@ -118,6 +118,7 @@
                     android:textAllCaps="true"
                     android:textColor="#fff"
                     android:textSize="14dp"
+                    android:background="#BDBDBD"
                     tools:ignore="SpUsage" />
             </LinearLayout>
         </RelativeLayout>

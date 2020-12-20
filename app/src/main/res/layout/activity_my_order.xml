@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#FAFAFA"
     tools:context="manhnguyen.shopping.activity.MyOrderActivity">
 
     <RelativeLayout
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="@color/white">
+        android:background="#FFBF00">
 
         <ImageView
             android:id="@+id/ic_back"
@@ -29,8 +30,7 @@
             android:fontFamily="@font/opensans_semibold"
             android:text="@string/my_orders"
             android:textColor="@color/black"
-            android:textSize="18sp"
-            android:background="@color/yellow"/>
+            android:textSize="18sp"/>
     </RelativeLayout>
 
     <ImageView

@@ -2,6 +2,7 @@ package manhnguyen.shopping;
 
 import android.app.Application;
 
+import com.beardedhen.androidbootstrap.TypefaceProvider;
 import com.crashlytics.android.Crashlytics;
 import com.google.firebase.FirebaseApp;
 import com.treebo.internetavailabilitychecker.InternetAvailabilityChecker;
@@ -151,6 +152,7 @@ public class MyApplication extends Application {
         Fabric.with(this, new Crashlytics());
         InternetAvailabilityChecker.init(this);
         FirebaseApp.initializeApp(this);
+        TypefaceProvider.registerDefaultIconSets();
 //        SaveValues.adbaseConfig(this, baseApiJNI(),stringFromJNI());
 
     }
