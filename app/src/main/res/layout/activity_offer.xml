@@ -12,7 +12,7 @@
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#FFBF00">
+        android:background="#FAFAFA">
 
         <ImageView
             android:id="@+id/img_back"
@@ -199,7 +199,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="fitXY"
-                    android:src="@drawable/banner_7" />
+                    android:src="@drawable/offer" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"

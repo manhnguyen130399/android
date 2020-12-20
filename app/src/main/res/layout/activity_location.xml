@@ -67,6 +67,7 @@
                 android:layout_height="45dp"
                 android:fontFamily="@font/opensans_semibold"
                 android:inputType="textEmailAddress"
+                android:textColorHint="@color/black"
                 android:paddingTop="10dp"
                 android:paddingBottom="10dp"
                 android:textAllCaps="true"

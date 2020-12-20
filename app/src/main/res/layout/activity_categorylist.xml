@@ -12,7 +12,7 @@
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:background="#FFBF00">
+        android:background="#FAFAFA">
 
         <ImageView
             android:id="@+id/ic_back"

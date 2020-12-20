@@ -22,7 +22,7 @@
                 android:layout_height="50dp"
                 android:layout_alignParentStart="true"
                 android:layout_marginStart="10dp"
-                android:src="@drawable/user1" />
+                android:src="@drawable/user11" />
 
             <RelativeLayout
                 android:id="@+id/rel_name"
@@ -52,7 +52,7 @@
                     android:layout_marginTop="3dp"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="26 Aug, 2019"
-                    android:textColor="@color/light_greay"
+                    android:textColor="@color/black"
                     android:textSize="12dp" />
             </RelativeLayout>
 
@@ -89,7 +89,7 @@
             android:fontFamily="@font/opensans_semibold"
             android:maxLines="2"
             android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
-            android:textColor="@color/light_greay"
+            android:textColor="#DDDDDD"
             android:textSize="12dp" />
 
         <ImageView
@@ -97,6 +97,6 @@
             android:layout_height="0.8dp"
             android:layout_below="@id/txt_dec"
             android:layout_marginTop="15dp"
-            android:background="@color/light_greay" />
+            android:background="#DDDDDD" />
     </RelativeLayout>
 </RelativeLayout>

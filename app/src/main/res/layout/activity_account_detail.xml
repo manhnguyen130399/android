@@ -9,8 +9,8 @@
         android:id="@+id/rele_header"
         android:layout_width="fill_parent"
         android:layout_height="50dp"
-        android:background="#FFBF00"
-        android:visibility="visible">
+        android:visibility="visible"
+        android:background="#FAFAFA">
 
         <ImageView
             android:id="@+id/ic_back"
@@ -55,15 +55,16 @@
                     android:layout_width="0dp"
                     android:layout_height="47dp"
                     android:layout_weight="1"
-                    android:background="@drawable/edittext_bg"
                     android:fontFamily="@font/opensans_semibold"
                     android:gravity="start|center"
                     android:hint="@string/first_name"
+                    android:textColorHint="@color/black"
+                    android:backgroundTint="#DDDDDD	"
                     android:inputType="text"
                     android:paddingStart="10dp"
                     android:paddingEnd="10dp"
                     android:textColor="@color/black"
-                    android:textSize="14sp" />
+                    android:textSize="12sp" />
             </LinearLayout>
 
             <EditText
@@ -73,16 +74,17 @@
                 android:layout_marginStart="15sp"
                 android:layout_marginTop="10dp"
                 android:layout_marginEnd="15sp"
-                android:background="@drawable/edittext_bg"
                 android:fontFamily="@font/opensans_semibold"
                 android:gravity="start|center"
+                android:textColorHint="@color/black"
                 android:hint="@string/adress"
+                android:backgroundTint="#DDDDDD	"
                 android:inputType="text"
                 android:maxLines="2"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/txt_email"
@@ -91,15 +93,16 @@
                 android:layout_marginStart="15sp"
                 android:layout_marginTop="15sp"
                 android:layout_marginEnd="15sp"
-                android:background="@drawable/edittext_bg"
                 android:fontFamily="@font/opensans_semibold"
                 android:gravity="start|center"
                 android:hint="@string/email"
+                android:textColorHint="@color/black"
                 android:inputType="textEmailAddress"
                 android:paddingStart="10dp"
+                android:backgroundTint="#DDDDDD	"
                 android:paddingEnd="10dp"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
 
             <EditText
                 android:id="@+id/edt_phone"
@@ -108,15 +111,16 @@
                 android:layout_marginStart="15sp"
                 android:layout_marginTop="15sp"
                 android:layout_marginEnd="15sp"
-                android:background="@drawable/edittext_bg"
                 android:fontFamily="@font/opensans_semibold"
                 android:gravity="start|center"
+                android:backgroundTint="#DDDDDD	"
                 android:hint="@string/phone"
                 android:inputType="phone"
+                android:textColorHint="@color/black"
                 android:paddingStart="10dp"
                 android:paddingEnd="10dp"
                 android:textColor="@color/black"
-                android:textSize="14sp" />
+                android:textSize="12sp" />
 
             <TextView
                 android:id="@+id/txt_edit"
@@ -127,12 +131,12 @@
                 android:layout_marginTop="15sp"
                 android:layout_marginEnd="15sp"
                 android:layout_weight="1"
-                android:background="#BDBDBD"
+                android:background="#00BFFF"
                 android:fontFamily="@font/opensans_bold"
                 android:gravity="center"
                 android:text="@string/edit"
                 android:textAllCaps="true"
-                android:textColor="#FE9A2E" />
+                android:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/txt_save"

@@ -11,7 +11,8 @@
     <RelativeLayout
         android:id="@+id/rel_header"
         android:layout_width="match_parent"
-        android:layout_height="60dp">
+        android:layout_height="60dp"
+        android:background="#FAFAFA">
 
         <ImageView
             android:layout_width="22dp"
@@ -32,7 +33,7 @@
             android:fontFamily="@font/opensans_bold"
             android:text="@string/shop"
             android:textAllCaps="true"
-            android:textColor="@color/yellow"
+            android:textColor="@color/black"
             android:textSize="20sp" />
 
         <ImageView

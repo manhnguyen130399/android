@@ -147,11 +147,11 @@
     <string name="enter_password"  translatable="false">Enter Password</string>
     <string name="enter_email"  translatable="false">Enter Email</string>
     <string name="invalid_email"  translatable="false">Invalid Email</string>
-    <string name="name"  translatable="false">Name</string>
+    <string name="name"  translatable="false">Email</string>
     <string name="password"  translatable="false">Password</string>
     <string name="forgot_password"  translatable="false">Forgot Password ?</string>
     <string name="login"  translatable="false">Login</string>
-    <string name="dont_have_account"  translatable="false">Dont Have Account ?</string>
+    <string name="dont_have_account"  translatable="false">Do not have Account ?</string>
     <string name="register"  translatable="false">Register</string>
 
     <!--orderlist-->

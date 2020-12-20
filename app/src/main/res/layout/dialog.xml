@@ -64,7 +64,7 @@
                 android:fontFamily="@font/opensans_bold"
                 android:text="@string/no"
                 android:textColor="#fff"
-                android:background="#BDBDBD"
+                android:background="#585858"
                 app:icon="@drawable/ic_clear_black_24dp"
                 app:iconGravity="textStart" />
 

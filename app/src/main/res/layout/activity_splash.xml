@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/yellow"
+    android:background="#A9F5F2"
     tools:context=".activity.SplashActivity">
 
     <LinearLayout
@@ -16,7 +16,7 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
-            android:background="@drawable/app" />
+            android:background="@drawable/logoshop" />
 
         <TextView
             android:layout_width="wrap_content"

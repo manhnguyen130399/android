@@ -92,7 +92,7 @@
                 android:layout_marginStart="15dp"
                 android:layout_marginTop="15dp"
                 android:layout_marginEnd="15dp"
-                android:background="@drawable/discount_background"
+                android:background="#FA5858"
                 android:gravity="center"
                 android:text="30%"
                 android:textColor="@color/white"
@@ -107,7 +107,7 @@
             android:layout_marginStart="12dp"
             android:layout_marginTop="10dp"
             android:layout_marginEnd="12dp"
-            android:background="@color/textgrey" />
+            android:background="#DDDDDD" />
 
         <RelativeLayout
             android:layout_width="match_parent"

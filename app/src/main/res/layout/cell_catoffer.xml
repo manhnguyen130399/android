@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FAFAFA">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -13,7 +14,7 @@
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:scaleType="fitXY"
-            android:src="@drawable/sale_banner"
+            android:src="@drawable/catoffer"
             android:visibility="visible" />
 
         <ImageView

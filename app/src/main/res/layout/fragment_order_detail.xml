@@ -31,7 +31,7 @@
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/item"
                     android:textAllCaps="true"
-                    android:textColor="@color/greay"
+                    android:textColor="#DDDDDD"
                     android:textSize="15sp" />
 
                 <androidx.recyclerview.widget.RecyclerView

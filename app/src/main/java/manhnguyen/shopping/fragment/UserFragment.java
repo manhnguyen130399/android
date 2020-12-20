@@ -87,7 +87,7 @@ public class UserFragment extends Fragment implements View.OnClickListener {
 
         ic_favrite.setBackgroundResource(R.drawable.like_not);
         ic_cart.setBackgroundResource(R.drawable.cart_not);
-        ic_user.setBackgroundResource(R.drawable.user);
+        ic_user.setBackgroundResource(R.drawable.user_not);
         ic_home.setBackgroundResource(R.drawable.home_not);
     }
 

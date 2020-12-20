@@ -19,7 +19,7 @@
                 android:id="@+id/rl_text"
                 android:layout_width="fill_parent"
                 android:layout_height="50dp"
-                android:background="#FFBF00">
+                android:background="#FAFAFA">
 
                 <TextView
                     android:id="@+id/txt_header"
@@ -29,7 +29,7 @@
                     android:layout_centerVertical="true"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/add_review"
-                    android:textColor="#fff"
+                    android:textColor="@color/black"
                     android:textSize="20dp"
                     tools:ignore="SpUsage" />
             </RelativeLayout>
@@ -118,7 +118,7 @@
                     android:textAllCaps="true"
                     android:textColor="#fff"
                     android:textSize="14dp"
-                    android:background="#BDBDBD"
+                    android:background="#585858"
                     tools:ignore="SpUsage" />
             </LinearLayout>
         </RelativeLayout>

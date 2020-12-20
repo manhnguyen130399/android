@@ -198,7 +198,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="15dp"
-                    android:background="@drawable/discount_background"
+                    android:background="#FA5858"
                     android:gravity="center"
                     android:textColor="@color/white"
                     android:textSize="12sp" />
@@ -245,12 +245,12 @@
                     android:layout_marginStart="8dp"
                     android:layout_marginTop="20dp"
                     android:layout_toEndOf="@id/txt_totalreview"
-                    android:background="#F2F2F2"
+                    android:background="#01DF74"
                     android:fontFamily="@font/opensans_semibold"
                     android:gravity="center"
                     android:text="@string/add_to_cart"
                     android:textAllCaps="true"
-                    android:textColor="@color/green"
+                    android:textColor="@color/white"
                     android:textSize="11sp" />
 
                 <TextView
@@ -261,7 +261,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="20dp"
                     android:layout_toEndOf="@id/add_to_cart"
-                    android:background="#01DF74"
+                    android:background="#FE9A2E"
                     android:fontFamily="@font/opensans_semibold"
                     android:gravity="center"
                     android:includeFontPadding="false"
@@ -278,7 +278,7 @@
                     android:layout_marginStart="10dp"
                     android:layout_marginTop="10dp"
                     android:layout_marginEnd="10dp"
-                    android:background="@color/light_greay" />
+                    android:background="#DDDDDD" />
 
                 <com.androidkun.xtablayout.XTabLayout
                     android:id="@+id/tabs"
