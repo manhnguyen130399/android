@@ -73,15 +73,12 @@ public class ReportSpamActivity extends AppCompatActivity {
         btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (editinfo.getText().toString().length() != 0) {
+
                     if (report != null) {
                         getReportspamFromServer();
                     } else {
                         Toast.makeText(ReportSpamActivity.this, getString(R.string.select_optionfirst), Toast.LENGTH_SHORT).show();
                     }
-                } else {
-                    editinfo.setError(getString(R.string.moreinfo));
-                }
             }
         });
     }
@@ -116,7 +113,8 @@ public class ReportSpamActivity extends AppCompatActivity {
 
     private void getReportspamFromServer() {
         UtilHelper.showdialog(context);
-        String url = getString(R.string.link) + "addcomplain?user_id=" + userid + "&description=" + editinfo.getText().toString() + "&complain_type=" + report;
+        final String moreInfo = editinfo.getText().toString().length()>0? editinfo.getText().toString():"Report";
+        String url = getString(R.string.link) + "addcomplain?user_id=" + userid + "&description=" + moreInfo + "&complain_type=" + report;
         Log.e(TAG, "getReportspamFromServer: " + url);
         AndroidNetworking.get(url)
                 .setPriority(Priority.HIGH)

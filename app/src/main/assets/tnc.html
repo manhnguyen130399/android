@@ -1,6 +1,25 @@
+<div class="container">
+	<div class="row">
+		<div class="col-md-8 col-md-offset-2">
+			<form name="tandc" ng-submit="approveTandC()">
+				<div class="panel panel-default" style="margin-top:20px;">
+					<div class="panel-body" style="max-height:600px; overflow-y:scroll; background-color:white;">
+						<div style="text-align:center;">
+							<h1>Terms and Conditions</h1>
+							<p>Created By Manh Nguyen</p>
+							<p>
+								This is where your terms and conditions content will go.
+							</p>
+						</div>
+					</div>
+				</div>
+				<div style="text-align:center;" ng-if="settings.Authentication.RequireTermsAndConditions && !UserInfo.approvedTermsAndConditions && UserInfo.isAuthenticated">
+					<span style="margin:20px;" class="btn btn-primary" >Agree to Terms and Conditions</span>
+				</div>
 
-<h2>Welcome to Shop</h2>
-	<p></p>
-<h2>Credit & Contact Information</h2>
-	<p>This Terms and conditions page was created by Manh Nguyen
-		 If you have any queries regarding any of our terms, please contact us.</p>
+			</form>
+		</div>
+
+	</div>
+
+</div>

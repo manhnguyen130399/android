@@ -19,7 +19,9 @@
             android:layout_height="match_parent"
             android:layout_alignParentEnd="true"
             android:layout_alignParentBottom="true"
-            android:layout_marginEnd="79dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="75dp"
+            android:layout_marginStart="75dp"
             android:layout_marginBottom="0dp"
             android:background="@drawable/logoshop"></RelativeLayout>
     </RelativeLayout>

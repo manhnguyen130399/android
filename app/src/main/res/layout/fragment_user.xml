@@ -121,12 +121,12 @@
                 <TextView
                     android:id="@+id/txt_catitem"
                     android:layout_width="wrap_content"
-                    android:layout_height="34dp"
+                    android:layout_height="31dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
-                    android:layout_marginStart="53dp"
-                    android:layout_marginTop="17dp"
-                    android:layout_marginEnd="176dp"
+                    android:layout_marginStart="57dp"
+                    android:layout_marginTop="19dp"
+                    android:layout_marginEnd="9dp"
                     android:layout_toStartOf="@+id/arrow"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/shoping_categories"
@@ -162,16 +162,14 @@
                     android:background="@drawable/cart1"></ImageView>
 
                 <TextView
-                    android:layout_width="108dp"
-                    android:layout_height="23dp"
-                    android:layout_alignEnd="@id/arrow"
+                    android:layout_width="332dp"
+                    android:layout_height="26dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="56dp"
-                    android:layout_marginTop="17dp"
-                    android:layout_marginEnd="239dp"
-                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="4dp"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/my_orders"
                     android:textColor="@color/black"
@@ -207,16 +205,14 @@
                     android:background="@drawable/shop1"></ImageView>
 
                 <TextView
-                    android:layout_width="107dp"
-                    android:layout_height="25dp"
+                    android:layout_width="323dp"
+                    android:layout_height="28dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="57dp"
-                    android:layout_marginTop="21dp"
-                    android:layout_marginEnd="239dp"
+                    android:layout_marginTop="18dp"
                     android:layout_marginBottom="4dp"
-                    android:layout_toStartOf="@id/arrow"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/about_shop"
                     android:textColor="@color/black"
@@ -252,16 +248,14 @@
                     android:background="@drawable/term1"></ImageView>
 
                 <TextView
-                    android:layout_width="320dp"
-                    android:layout_height="24dp"
+                    android:layout_width="333dp"
+                    android:layout_height="26dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="55dp"
-                    android:layout_marginTop="19dp"
-                    android:layout_marginEnd="174dp"
+                    android:layout_marginTop="17dp"
                     android:layout_marginBottom="7dp"
-                    android:layout_toStartOf="@id/arrow"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/terms_amp_condition"
                     android:textColor="@color/black"
@@ -296,16 +290,14 @@
                     android:background="@drawable/help1"></ImageView>
 
                 <TextView
-                    android:layout_width="228dp"
-                    android:layout_height="25dp"
+                    android:layout_width="339dp"
+                    android:layout_height="26dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="54dp"
-                    android:layout_marginTop="18dp"
-                    android:layout_marginEnd="224dp"
+                    android:layout_marginTop="17dp"
                     android:layout_marginBottom="7dp"
-                    android:layout_toStartOf="@id/arrow"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/help_center"
                     android:textColor="@color/black"
@@ -341,16 +333,14 @@
                     android:background="@drawable/repor1t"></ImageView>
 
                 <TextView
-                    android:layout_width="158dp"
-                    android:layout_height="24dp"
+                    android:layout_width="332dp"
+                    android:layout_height="22dp"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_alignParentBottom="true"
                     android:layout_marginStart="53dp"
-                    android:layout_marginTop="14dp"
-                    android:layout_marginEnd="220dp"
+                    android:layout_marginTop="18dp"
                     android:layout_marginBottom="11dp"
-                    android:layout_toStartOf="@id/arrow"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/report_issue"
                     android:textColor="@color/black"
@@ -386,14 +376,12 @@
                     android:background="@drawable/logout1"></ImageView>
 
                 <TextView
-                    android:layout_width="89dp"
+                    android:layout_width="344dp"
                     android:layout_height="wrap_content"
-                    android:layout_alignEnd="@id/arrow"
                     android:layout_alignParentStart="true"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="54dp"
                     android:layout_marginTop="17dp"
-                    android:layout_marginEnd="259dp"
                     android:fontFamily="@font/opensans_semibold"
                     android:text="@string/logout"
                     android:textColor="@color/black"
