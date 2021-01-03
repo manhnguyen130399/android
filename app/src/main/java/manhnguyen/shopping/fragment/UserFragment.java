@@ -131,7 +131,7 @@ public class UserFragment extends Fragment implements View.OnClickListener {
                 RequestOptions requestOptions = new RequestOptions();
                 requestOptions.placeholder(R.drawable.user_icon);
                 requestOptions.error(R.drawable.user_icon);
-                Glide.with(context).load(getString(R.string.imagelink) + "public/upload/profile/" + profile).apply(requestOptions).into(chef_profile);
+                Glide.with(context).load(getString(R.string.imagelink) + "upload/profile/" + profile).apply(requestOptions).into(chef_profile);
             }
         } else {
             rel_logout.setVisibility(View.GONE);

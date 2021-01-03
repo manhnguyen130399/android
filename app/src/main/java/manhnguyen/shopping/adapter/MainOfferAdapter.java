@@ -59,7 +59,7 @@ public class MainOfferAdapter extends RecyclerView.Adapter<RecyclerView.ViewHold
         } else {
             ((ItemViewHolder) holder).txt_saveup_to.setText(mcontext.getString(R.string.new_price) + " " + mcontext.getString(R.string.dolar) + toplist.getNewPrice());
         }
-        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
+        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
         ((ItemViewHolder) holder).btn_shop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

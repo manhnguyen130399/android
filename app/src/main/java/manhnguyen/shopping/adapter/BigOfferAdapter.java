@@ -60,7 +60,7 @@ public class BigOfferAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
         } else {
             ((ItemViewHolder) holder).txt_saveup_to.setText(mcontext.getString(R.string.new_price) + mcontext.getString(R.string.dolar) + toplist.getNewPrice());
         }
-        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
+        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
        /* try {
             URL url = new URL(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner());
             image = BitmapFactory.decodeStream(url.openConnection().getInputStream());

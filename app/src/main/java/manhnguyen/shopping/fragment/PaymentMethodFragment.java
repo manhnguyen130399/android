@@ -427,10 +427,11 @@ public class PaymentMethodFragment extends Fragment implements TextWatcher, Radi
             postRequestBuilder.addBodyParameter("stripeToken", stripe_token);
         }
         if (payment_method.equals("1")) {
-            postRequestBuilder.addBodyParameter("pay_pal_paymentId", stripe_token);
+            postRequestBuilder.addBodyParameter("pay_pa l_paymentId", stripe_token);
         }
         postRequestBuilder.setExecutor(Executors.newSingleThreadExecutor());
         ANRequest anRequest = postRequestBuilder.build();
+        Log.e(TAG, "data: " + postRequestBuilder);
         anRequest.getAsString(new StringRequestListener() {
             @Override
             public void onResponse(String response) {

@@ -53,7 +53,7 @@ public class CatOfferAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             price = String.valueOf(toplist.getNewPrice());
         }
         ((ItemViewHolder) holder).txt_saveup_to.setText(mcontext.getString(R.string.save_upto) + " " + price + mcontext.getString(R.string.percentage) + " " + mcontext.getString(R.string.offf));
-        Glide.with(mcontext.getApplicationContext()).load(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).image);
+        Glide.with(mcontext.getApplicationContext()).load(mcontext.getString(R.string.imagelink) + "upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).image);
         ((ItemViewHolder) holder).btn_shop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

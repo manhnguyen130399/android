@@ -306,7 +306,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener, Back
 
     private void setMainOfferList() {
         recycle_ads.hideShimmerAdapter();
-        if (adsList.size() != 0) {
+            if (adsList.size() != 0) {
             txt_nooffer.setVisibility(View.GONE);
             final SnappyLinearLayoutManager verticalLayoutManager1 = new SnappyLinearLayoutManager(context, SnappyLinearLayoutManager.HORIZONTAL, false);
             recycle_ads.setLayoutManager(verticalLayoutManager1);

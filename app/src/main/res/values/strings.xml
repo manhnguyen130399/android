@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">SHOP</string>
-    <string name="link" translatable="false">https://aqurvent.eymcloud.com/api/</string>
-    <string name="imagelink" translatable="false">https://aqurvent.eymcloud.com/</string>
+    <string name="link" translatable="false">http://192.168.137.20:8080/api/</string>
+    <string name="imagelink" translatable="false">http://192.168.137.20:8080/</string>
 <!--    <string name="link" translatable="false">http://localhost:3000/api/</string>-->
 <!--    <string name="imagelink" translatable="false">>ttp://localhost:3000/</string>-->
 

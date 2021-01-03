@@ -59,7 +59,7 @@ public class ProductOfferAdapter extends RecyclerView.Adapter<RecyclerView.ViewH
         }
         ((ItemViewHolder) holder).txt_latest_fashion.setText(toplist.getMainTitle());
 
-        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
+        Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
         ((ItemViewHolder) holder).btn_shop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
