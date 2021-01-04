@@ -237,11 +237,9 @@ public class AddressFragment extends Fragment {
             } else {
                 edt_town.setText(edtcity);
             }
-            if (note1 != null) {
-                edt_note.setText(note1);
-            } else {
-                edt_note.setText(note);
-            }
+
+            edt_note.setText(note);
+
             if (pincode != null) {
                 edt_pincode.setText(pincode);
             } else {
@@ -269,8 +267,6 @@ public class AddressFragment extends Fragment {
     }
 
     private void validate() {
-
-        if (ispress) {
             SPmanager.saveValue(context, "edtcity", edt_town.getText().toString());
             SPmanager.saveValue(context, "edtpincode", edt_pincode.getText().toString());
             SPmanager.saveValue(context, "edtbillcity", edt_billtown.getText().toString());
@@ -284,7 +280,7 @@ public class AddressFragment extends Fragment {
                             if (isValidEmail(edt_email.getText().toString().trim())) {
 
                                 if (!edt_mobile.getText().toString().trim().isEmpty()) {
-                                    if (!edt_note.getText().toString().isEmpty()) {
+//                                    if (!edt_note.getText().toString().isEmpty()) {
                                         if (switch_button.isChecked()) {
                                             Map<String, String> data = new HashMap<>();
                                             data.put("address", edt_address.getText().toString());
@@ -338,11 +334,11 @@ public class AddressFragment extends Fragment {
                                         }
 
 
-                                    } else {
-                                        edt_note.requestFocus();
-                                        edt_note.setError(getString(R.string.enter_notes));
-                                        edt_email.getParent().requestChildFocus(edt_email, edt_email);
-                                    }
+//                                    } else {
+//                                        edt_note.requestFocus();
+//                                        edt_note.setError(getString(R.string.enter_notes));
+//                                        edt_email.getParent().requestChildFocus(edt_email, edt_email);
+//                                    }
                                 } else {
                                     edt_mobile.requestFocus();
                                     edt_mobile.setError(getString(R.string.enter_mobile));
@@ -381,9 +377,10 @@ public class AddressFragment extends Fragment {
                 edt_firstname.setError(getString(R.string.enter_firstname));
                 edt_firstname.getParent().requestChildFocus(edt_firstname, edt_firstname);
             }
-        } else {
-            Toast.makeText(view.getContext(), R.string.select_location, Toast.LENGTH_SHORT).show();
-        }
+//        }
+//        else {
+//            Toast.makeText(view.getContext(), R.string.select_location, Toast.LENGTH_SHORT).show();
+//        }
     }
 
     private void loadCountrydata() {

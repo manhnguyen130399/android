@@ -21,6 +21,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.recyclerview.widget.RecyclerView;
@@ -172,9 +173,10 @@ public class PaymentMethodFragment extends Fragment implements TextWatcher, Radi
 
     @Override
     public void RadioClick(int position, int mSelctedposition) {
-        if (mSelctedposition != -1) {
+        if (mSelctedposition == 3) {
             payment_method = bankList.get(position).getType();
         }else {
+            Toast.makeText(getActivity(), getString(R.string.reason), Toast.LENGTH_SHORT).show();
             payment_method = "";
         }
     }

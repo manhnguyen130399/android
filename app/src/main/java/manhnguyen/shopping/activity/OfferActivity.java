@@ -208,7 +208,7 @@ public class OfferActivity extends AppCompatActivity implements CoutomProductLis
                     public void onError(ANError anError) {
                         Log.e(TAG, "onError: " + anError.getErrorBody());
                         Log.e(TAG, "onError: " + anError.getMessage());
-                        Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
+                       // Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -343,7 +343,7 @@ public class OfferActivity extends AppCompatActivity implements CoutomProductLis
                             }
                         } catch (Exception e) {
                             e.printStackTrace();
-                            Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
+                            //Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
                         }
 
                     }
@@ -352,7 +352,7 @@ public class OfferActivity extends AppCompatActivity implements CoutomProductLis
                     public void onError(ANError anError) {
                         Log.e(TAG, "onError: " + anError.getMessage());
                         Log.e(TAG, "onError: " + anError.getErrorBody());
-                        Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
+                        //Toast.makeText(OfferActivity.this, R.string.no_data, Toast.LENGTH_SHORT).show();
                     }
                 });
 

@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">SHOP</string>
-    <string name="link" translatable="false">http://192.168.137.20:8080/api/</string>
-    <string name="imagelink" translatable="false">http://192.168.137.20:8080/</string>
+    <string name="link" translatable="false">http://cryptic-lake-96358.herokuapp.com/api/</string>
+    <string name="imagelink" translatable="false">http://cryptic-lake-96358.herokuapp.com/</string>
 <!--    <string name="link" translatable="false">http://localhost:3000/api/</string>-->
 <!--    <string name="imagelink" translatable="false">>ttp://localhost:3000/</string>-->
 
@@ -26,7 +26,7 @@
     <string name="set_your_location_to_start_exploring_restaurants_around_you" translatable="false">Set your location to start exploring \n restaurants around you</string>
     <string name="hi_nice_to_meet_you" translatable="false">Hi, nice to meet you!</string>
     <string name="loading" tools:ignore="MissingTranslation">loading..</string>
-    <string name="need_login_for_wish" translatable="false">you need to login first. Would you like to login now ?</string>
+    <string name="need_login_for_wish" translatable="false">You need to login first. Would you like to login now ?</string>
 
     <!--user-->
     <string name="sign_in" translatable="false">Sign In</string>
@@ -45,7 +45,7 @@
     <string name="fb_login_protocol_scheme" translatable="false">fb1343802689133822</string>
     <string name="email_error" translatable="false">Enter Valid Email</string>
     <string name="default_notification_channel_id" translatable="false">123</string>
-    <string name="login_warning" translatable="false">U need To Login FIrst</string>
+    <string name="login_warning" translatable="false">U need To Login First</string>
     <string name="something_wrong" translatable="false">Something Wrong</string>
     <string name="sort_by" translatable="false">Sort By</string>
 
@@ -65,7 +65,7 @@
 
 
     <!--payment-->
-    <string name="pay_failure" translatable="false">an extremely unlikely failure occurred:</string>
+    <string name="pay_failure" translatable="false">An extremely unlikely failure occurred:</string>
     <string name="shop_payment" translatable="false">Shop Peyment</string>
     <string name="stripe_key" translatable="false">pk_test_yFUNiYsEESF7QBY0jcZoYK9j00yHumvXho</string>
     <string name="paypalclient_id" translatable="false">AaT793pjARjOWkXpWaOd45lGARUMRN9pr8seE5c-AJpQBSJS1H6Z44rUPSEWYPpO7J7iF1Hu0N-MqnPx</string>
@@ -118,11 +118,11 @@
 
     <!--Detail-->
     <string name="warning" translatable="false">Warning</string>
-    <string name="add_wishlist"  translatable="false" >add to wishlist successfully</string>
-    <string name="remove_wishlist"  translatable="false">remove from wishlist successfully</string>
+    <string name="add_wishlist"  translatable="false" >Add to wishlist successfully</string>
+    <string name="remove_wishlist"  translatable="false">Remove from wishlist successfully</string>
     <string name="try_again"  translatable="false">Sorry Try Again</string>
     <string name="add_to_cart"  translatable="false">Add to cart</string>
-    <string name="shop_now"  translatable="false">shop now</string>
+    <string name="shop_now"  translatable="false">Shop now</string>
 
     <!--filter-->
     <string name="popular_item"  translatable="false">Popular Item</string>
@@ -193,7 +193,7 @@
     <string name="next_step" translatable="false" >Next Step</string>
     <string name="delivery" translatable="false">Delivery</string>
     <string name="select_delivery_location" translatable="false">Select Delivery Location</string>
-    <string name="town_city" translatable="false">Town / City</string>
+    <string name="town_city" translatable="false">City</string>
     <string name="postcode" translatable="false">Postcode</string>
     <string name="mobile_number" translatable="false">Mobile Number</string>
     <string name="note" translatable="false">Note</string>
@@ -230,13 +230,13 @@
 
     <!--payment_method-->
     <string name="paypal_transfer" translatable="false">Paypal Transfer</string>
-    <string name="pay_onpaypal" translatable="false">pay on paypal</string>
+    <string name="pay_onpaypal" translatable="false">Pay on paypal</string>
     <string name="visa_card" translatable="false">Visa card Transfer</string>
-    <string name="payvisa" translatable="false">pay on visa card</string>
+    <string name="payvisa" translatable="false">Pay on visa card</string>
     <string name="master_card" translatable="false">Master card Transfer</string>
-    <string name="paymaster" translatable="false">pay on master card</string>
+    <string name="paymaster" translatable="false">Pay on master card</string>
     <string name="cashon" translatable="false">Cash On Delivery</string>
-    <string name="pay_cash" translatable="false">pay on delivery</string>
+    <string name="pay_cash" translatable="false">Pay on delivery</string>
     <string name="valid_cvv" translatable="false">Enter Valid cvv</string>
     <string name="valid_year" translatable="false">Enter valid Year</string>
     <string name="valid_month" translatable="false">Enter valid Month</string>
@@ -288,6 +288,7 @@
     <string name="no_seasonal_offers" translatable="false">No Seasonal offers</string>
     <string name="somethingwroing" translatable="false">Something Wrong</string>
     <string name="sorry_try" translatable="false">Sorry Try Again</string>
+    <string name="reason" translatable="false">System has been Error, you can choose Pay on delivery. Thanks</string>
     <!--    <string name="brand">Brand</string>-->
 
 </resources>

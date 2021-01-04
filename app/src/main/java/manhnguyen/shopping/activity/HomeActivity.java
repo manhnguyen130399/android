@@ -120,6 +120,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     fragment = new CartFragment();
                     openFragment(fragment);
                 } else {
+                    // show login question
                     Showdialog();
                 }
                 break;
@@ -136,6 +137,7 @@ public class HomeActivity extends AppCompatActivity implements View.OnClickListe
                     fragment = new WishFragment();
                     openFragment(fragment);
                 } else {
+                    // show login question
                     Showdialog();
                 }
                 break;

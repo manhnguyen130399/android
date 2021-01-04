@@ -61,13 +61,6 @@ public class BigOfferAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolde
             ((ItemViewHolder) holder).txt_saveup_to.setText(mcontext.getString(R.string.new_price) + mcontext.getString(R.string.dolar) + toplist.getNewPrice());
         }
         Glide.with(mcontext).load(mcontext.getString(R.string.imagelink) + "upload/offer/image/" + toplist.getBanner()).into(((ItemViewHolder) holder).img_topoffer);
-       /* try {
-            URL url = new URL(mcontext.getString(R.string.imagelink) + "public/upload/offer/image/" + toplist.getBanner());
-            image = BitmapFactory.decodeStream(url.openConnection().getInputStream());
-            ((ItemViewHolder) holder).img_topoffer.setImageBitmap(image);
-        } catch (IOException e) {
-            System.out.println(e);
-        }*/
         ((ItemViewHolder) holder).btn_shop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
