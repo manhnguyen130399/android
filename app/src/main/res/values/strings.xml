@@ -1,7 +1,7 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">SHOP</string>
-    <string name="link" translatable="false">http://cryptic-lake-96358.herokuapp.com/api/</string>
-    <string name="imagelink" translatable="false">http://cryptic-lake-96358.herokuapp.com/</string>
+    <string name="link" translatable="false">http://192.168.137.201:8080/api/</string>
+    <string name="imagelink" translatable="false">http://192.168.137.201:8080/</string>
 <!--    <string name="link" translatable="false">http://localhost:3000/api/</string>-->
 <!--    <string name="imagelink" translatable="false">>ttp://localhost:3000/</string>-->
 
@@ -96,6 +96,7 @@
     <string name="save" translatable="false">Save</string>
     <string name="first_name" translatable="false">First Name</string>
     <string name="email" translatable="false">Email</string>
+    <string name="code" translatable="false">Code</string>
     <string name="adress" translatable="false">Address</string>
     <string name="phone" translatable="false">Phone No</string>
     <string name="select_phone" translatable="false">Enter phone no</string>
@@ -257,7 +258,11 @@
     <!--Forgot Password-->
     <string name="forgot_passwords" translatable="false">Forgot Password</string>
     <string name="retrieve_your_password" translatable="false">Retrieve Your Password</string>
+    <string name="enter_your_code" translatable="false">Enter your code</string>
     <string name="forgot_password_" translatable="false">Forgot Password</string>
+    <string name="we_have_sent_code_to_your_email" translatable="false">We have sent code to your email</string>
+    <string name="create_new_password" translatable="false">Create new password</string>
+    <string name="enter_new_password" translatable="false">Enter new password</string>
     <string name="submit_txt" tools:ignore="MissingTranslation">Submit</string>
 
 

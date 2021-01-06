@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAFAFA">
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#FAFAFA">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="23dp"
+            android:layout_height="20dp"
+            android:layout_alignParentStart="true"
+            android:layout_centerInParent="true"
+            android:layout_margin="15dp"
+            android:background="@drawable/header_arrow_left"
+            android:onClick="backpress" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
+            android:layout_toEndOf="@+id/btn_back"
+            android:fontFamily="@font/opensans_semibold"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:text="@string/forgot_passwords"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_varify_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/enter_your_code"
+            android:textAlignment="center"
+            android:textColor="#112743"
+            android:textSize="22sp" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/txt_retreiveText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt_varify_mobile"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/opensans_bold"
+            android:gravity="center"
+            android:text="@string/we_have_sent_code_to_your_email"
+            android:textAlignment="center"
+            android:textColor="#A0A0A0" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_title"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/edt_code"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#DDDDDD	"
+            android:fontFamily="@font/opensans_bold"
+            android:textColorHint="@color/black"
+            android:gravity="start|bottom"
+            android:hint="@string/code"
+            android:singleLine="true"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/bn_confirm"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/edt_code"
+            android:layout_margin="15dp"
+            android:background="#01DF74"
+            android:fontFamily="@font/opensans_bold"
+            android:text="@string/submit_txt"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
